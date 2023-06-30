@@ -1,0 +1,281 @@
+<div class="wrapper wizard d-flex clearfix multisteps-form position-relative">
+
+  <div class="steps order-2 position-relative w-25">
+    <div class="multisteps-form__progress">
+      <span class="multisteps-form__progress-btn js-active" title="Application data"><i
+          class="far fa-user"></i><span>Account Information</span></span>
+      <span class="multisteps-form__progress-btn" title="Tax residency"><i class="far fa-user"></i><span>Personal
+          Information</span></span>
+      <!-- <span class="multisteps-form__progress-btn" title="Indentity documents"><i class="far fa-user"></i><span>Personal information</span></span>
+                <span class="multisteps-form__progress-btn" title="Investability"><i class="far fa-user"></i><span>Choose a payment</span></span>
+                <span class="multisteps-form__progress-btn" title="Review"><i class="far fa-user"></i><span>Review </span></span> -->
+    </div>
+  </div>
+  <form class="multisteps-form__form w-75 order-1" action="/auth/register" method="POST" id="wizard" type="signup">
+    <div class="form-area position-relative">
+      <!-- div 1 -->
+      <div class="multisteps-form__panel js-active" data-animation="slideHorz">
+        <div class="wizard-forms">
+          <div class="inner pb-100 clearfix">
+            <div class="wizard-title text-center">
+              <h3>Account Information</h3>
+              <p>Please, enter your personal information</p>
+            </div>
+            <!--  -->
+            <div class="err-display">
+              
+            </div>
+            <div class="wizard-form-field mb-85">
+              <div class="wizard-form-input">
+                <label>Name</label>
+                <input type="text" name="name" id="r-fullname">
+              </div>
+              <div class="wizard-form-input">
+                <label>Email</label>
+                <input type="email" name="email" id="r-email">
+              </div>
+              <div class="wizard-form-input">
+                <label>Password</label>
+                <input type="password" name="password" id="r-password">
+              </div>
+              <div class="wizard-form-input">
+                <label>Gender?</label>
+                <div class="wizard-checked">
+                  <label class="checkbox-circle">
+                    <input type="radio" checked="checked" name="gender" value="Male">
+                    <span class="checkmark"></span>
+                    Male
+                  </label>
+                </div>
+                <div class="wizard-checked">
+                  <label class="checkbox-circle">
+                    <input type="radio" name="gender" value="Female">
+                    <span class="checkmark"></span>
+                    Female
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="wizard-v3-progress">
+              <span>1 to 5 step</span>
+              <h3>0% to complete</h3>
+              <div class="progress">
+                <div class="progress-bar" style="width: 0%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.inner -->
+          <div class="vector-img-one">
+            <img src="assets/img/vb1.png" alt="">
+          </div>
+          <div class="actions">
+            <ul>
+              <li><span class="js-btn-next" title="NEXT">NEXT <i class="fa fa-arrow-right"></i></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- div 2 -->
+      <div class="multisteps-form__panel" data-animation="slideHorz">
+        <div class="err-display">
+          
+        </div>
+        <div class="wizard-forms section-padding">
+          <div class="inner pb-100 clearfix">
+            <div class="wizard-title text-center">
+              <h3>Persional Information</h3>
+              <p>Please, enter your personal information</p>
+            </div>
+
+            <div class="wizard-solution-select">
+              <span class="wizard-sub-text">What do you do?</span>
+              <div class="row">
+                <div class="col-md-4">
+                  <label class="option_item">
+                    <input type="radio" name="rdbJob" class="checkbox" value="Work">
+                    <span class="option_inner">
+                      <span class="tickmark"></span>
+                      <span class="icon"><img src="assets/img/d1.png" alt=""></span>
+                      <span class="name">I'm working at companies</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="col-md-4">
+                  <label class="option_item">
+                    <input type="radio" name="rdbJob" class="checkbox" value="Student">
+                    <span class="option_inner">
+                      <span class="tickmark"></span>
+                      <span class="icon"><img src="assets/img/d1.png" alt=""></span>
+                      <span class="name">I'm a student</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="col-md-4">
+                  <label class="option_item">
+                    <input type="radio" name="rdbJob" class="checkbox" value="FreeLancer">
+                    <span class="option_inner">
+                      <span class="tickmark"></span>
+                      <span class="icon"><img src="assets/img/d1.png" alt=""></span>
+                      <span class="name">I am a freelancer</span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="wizard-note-subject pb-100 w-100">
+              <div class="wizard-form-input select-option-area">
+                <label>What is you degree?</label>
+                <select id="r-learnerLevel">
+                  <option value="Professional certification">Professional certification</option>
+                  <option value="Bachelor">Bachelor</option>
+                  <option value="College">College</option>
+                  <option value="University">University</option>
+                  <option value="Master">Master</option>
+                  <option value="Doctor of Phylosophy (Ph.D)">Doctor of Phylosophy (Ph.D)</option>
+                </select>
+              </div>
+
+              <div class="wizard-form-input select-option-area">
+                <label>Where do you live?</label>
+                <select id="cities">
+                  <option value='0'>Select city</option>
+                  <option value='01'>Thành phố Hà Nội</option>
+                  <option value='79'>Thành phố Hồ Chí Minh</option>
+                  <option value='31'>Thành phố Hải Phòng</option>
+                  <option value='48'>Thành phố Đà Nẵng</option>
+                  <option value='92'>Thành phố Cần Thơ</option>
+                  <option value='02'>Tỉnh Hà Giang</option>
+                  <option value='04'>Tỉnh Cao Bằng</option>
+                  <option value='06'>Tỉnh Bắc Kạn</option>
+                  <option value='08'>Tỉnh Tuyên Quang</option>
+                  <option value='10'>Tỉnh Lào Cai</option>
+                  <option value='11'>Tỉnh Điện Biên</option>
+                  <option value='12'>Tỉnh Lai Châu</option>
+                  <option value='14'>Tỉnh Sơn La</option>
+                  <option value='15'>Tỉnh Yên Bái</option>
+                  <option value='17'>Tỉnh Hoà Bình</option>
+                  <option value='19'>Tỉnh Thái Nguyên</option>
+                  <option value='20'>Tỉnh Lạng Sơn</option>
+                  <option value='22'>Tỉnh Quảng Ninh</option>
+                  <option value='24'>Tỉnh Bắc Giang</option>
+                  <option value='25'>Tỉnh Phú Thọ</option>
+                  <option value='26'>Tỉnh Vĩnh Phúc</option>
+                  <option value='27'>Tỉnh Bắc Ninh</option>
+                  <option value='30'>Tỉnh Hải Dương</option>
+                  <option value='33'>Tỉnh Hưng Yên</option>
+                  <option value='34'>Tỉnh Thái Bình</option>
+                  <option value='35'>Tỉnh Hà Nam</option>
+                  <option value='36'>Tỉnh Nam Định</option>
+                  <option value='37'>Tỉnh Ninh Bình</option>
+                  <option value='38'>Tỉnh Thanh Hóa</option>
+                  <option value='40'>Tỉnh Nghệ An</option>
+                  <option value='42'>Tỉnh Hà Tĩnh</option>
+                  <option value='44'>Tỉnh Quảng Bình</option>
+                  <option value='45'>Tỉnh Quảng Trị</option>
+                  <option value='46'>Tỉnh Thừa Thiên Huế</option>
+                  <option value='49'>Tỉnh Quảng Nam</option>
+                  <option value='51'>Tỉnh Quảng Ngãi</option>
+                  <option value='52'>Tỉnh Bình Định</option>
+                  <option value='54'>Tỉnh Phú Yên</option>
+                  <option value='56'>Tỉnh Khánh Hòa</option>
+                  <option value='58'>Tỉnh Ninh Thuận</option>
+                  <option value='60'>Tỉnh Bình Thuận</option>
+                  <option value='62'>Tỉnh Kon Tum</option>
+                  <option value='64'>Tỉnh Gia Lai</option>
+                  <option value='66'>Tỉnh Đắk Lắk</option>
+                  <option value='67'>Tỉnh Đắk Nông</option>
+                  <option value='68'>Tỉnh Lâm Đồng</option>
+                  <option value='70'>Tỉnh Bình Phước</option>
+                  <option value='72'>Tỉnh Tây Ninh</option>
+                  <option value='74'>Tỉnh Bình Dương</option>
+                  <option value='75'>Tỉnh Đồng Nai</option>
+                  <option value='77'>Tỉnh Bà Rịa - Vũng Tàu</option>
+                  <option value='80'>Tỉnh Long An</option>
+                  <option value='82'>Tỉnh Tiền Giang</option>
+                  <option value='83'>Tỉnh Bến Tre</option>
+                  <option value='84'>Tỉnh Trà Vinh</option>
+                  <option value='86'>Tỉnh Vĩnh Long</option>
+                  <option value='87'>Tỉnh Đồng Tháp</option>
+                  <option value='89'>Tỉnh An Giang</option>
+                  <option value='91'>Tỉnh Kiên Giang</option>
+                  <option value='93'>Tỉnh Hậu Giang</option>
+                  <option value='94'>Tỉnh Sóc Trăng</option>
+                  <option value='95'>Tỉnh Bạc Liêu</option>
+                  <option value='96'>Tỉnh Cà Mau</option>
+                </select>
+              </div>
+              <div class="wizard-form-input select-option-area select-v2">
+                <label></label>
+                <select id="districts">
+                  <option value='0'>Select district</option>
+                </select>
+              </div>
+              <div class="wizard-form-input select-option-area select-v2">
+                <label></label>
+                <select id="wards">
+                  <option value='0'>Select ward</option>
+                </select>
+              </div>
+              <div class="wizard-form-input select-option-area">
+                <label>Which languages could you use?  *</label>
+                <select class="selectpicker" multiple data-live-search="true" data-width="auto" data-multiple-seperator=", " id="languages">
+                  {{#each languages}}
+                  <option value="{{lanName}}">{{lanName}}</option>
+                  {{/each}}
+                </select>
+              </div>
+              <div class="wizard-form-input select-option-area">
+                <label>Which skills do you haves?  *</label>
+                <select class="mdb-select md-form selectpicker" multiple data-live-search="true" data-width="auto" data-multiple-seperator=", " id="skills">
+                  {{#each technologies}}
+                  <option value="{{techName}}">{{techName}}</option>
+                  {{/each}}
+                </select>
+              </div>
+              <div class="wizard-form-input select-option-area">
+                <label>How much can you spend on coures?</label>
+                <select id="fee-max">
+                  <option value="">Select your ideal fee </option>
+                  <option value="less than 5 millions">less than 5 millions</option>
+                  <option value="5 millions to 15 millions">5 millions to 15 millions</option>
+                  <option value="15 millions to 30 millions">15 millions to 30 millions</option>
+                  <option value="more than 30 millions">more than 30 millions</option>
+                </select>
+              </div>
+              <div class="wizard-form-input select-option-area pb-10">
+                <label>Which slot is available for you, if we have an offline courses?</label>
+                <select class="selectpicker" id="freetime" multiple data-live-search="true" data-width="auto" data-multiple-seperator=", ">
+                  <option value="">Select your free time</option>
+                  {{#each freetimeSlots}}
+                  <option value="{{this}}">{{this}}</option>
+                  {{/each}}
+                </select>
+              </div>
+            </div>
+            <div class="wizard-v3-progress">
+              <span>2 to 2 step</span>
+              <h3>100% to complete</h3>
+              <div class="progress">
+                <div class="progress-bar" style="width: 100%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.inner -->
+          <div class="vector-img-one pt-50" style="left: -50px;">
+            <img src="assets/img/vb2.png" alt="">
+          </div>
+          <div class="actions mt-60">
+            <ul>
+              <li><button class="js-btn-prev" type="button"> BACK <i class="fa fa-arrow-left"></i></button></li>
+              <!-- <li><span class="js-btn-prev" title="BACK"><i class="fa fa-arrow-left"></i> BACK </span></li> -->
+              <li><button title="NEXT" type="submit" id="sign-up-btn">SUBMIT <i class="fa fa-arrow-right"></i></button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>

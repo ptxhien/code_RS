@@ -1,0 +1,8 @@
+thumb
+duration
+fee
+name
+outcome
+provider
+type
+

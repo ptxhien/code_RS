@@ -1,0 +1,29 @@
+<script src="/assets/js/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/assets/HomePage/js/jquery.slicknav.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/switch.js"></script>
+<script src="/assets/HomePage/js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+<script>
+  function readURL(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        $('#profile-image')
+          .attr('src', e.target.result)
+          .width(150)
+          .height(200);
+      };
+
+      reader.readAsDataURL(input.files[0]);
+    }
+  };
+  $("#customFile").change(function () {
+    filename = this.files[0].name
+  });
+  $('selectpicker').selectpicker();
+</script>

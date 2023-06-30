@@ -1,0 +1,561 @@
+[
+ {
+  "JobID": "JOB_001",
+  "JobTitle": ".NET Developer",
+  "technologySkill": "Microsoft Angular, CI/CD, Git, JQuery, JavaScript, Microsoft Visual Studio, SQL, SSMS, T-SQL, TFS, AngularJS, Microsoft SQL Server, Razor, C#, React, TypeScript, Webpack, SSIS, Agile, Angular, Bootstrap, CSS, IBM Rational ClearCase, HTML, HTML5, Kanban, SVN, Scrum, SharePoint, UML, CSS3, Enterprise Javabeans (EJB), MySQL, PostgreSQL, WCF, Amazon Web Services (AWS), Windows Services, Kentico, SiteCore, Sitefinity, Umbraco",
+  "Weight_Technology": {"JavaScript": 6, "JQuery": 5, "CI/CD": 3, "Microsoft SQL Server": 3, "CSS": 3, "HTML": 3, "HTML5": 3, "Git": 2, "TFS": 2, "AngularJS": 2, "Bootstrap": 2, "Microsoft Angular": 1, "Microsoft Visual Studio": 1, "SQL": 1, "SSMS": 1, "T-SQL": 1, "Razor": 1, "C#": 1, "React": 1, "TypeScript": 1, "Webpack": 1, "SSIS": 1, "Agile": 1, "Angular": 1, "IBM Rational ClearCase": 1, "Kanban": 1, "SVN": 1, "Scrum": 1, "SharePoint": 1, "UML": 1, "CSS3": 1, "Enterprise Javabeans (EJB)": 1, "MySQL": 1, "PostgreSQL": 1, "WCF": 1, "Amazon Web Services (AWS)": 1, "Windows Services": 1, "Kentico": 1, "SiteCore": 1, "Sitefinity": 1, "Umbraco": 1},
+  "knowledge": "Code Versioning Tools Like Git And CI/CD Tools Like Jenkins. Object-Oriented Design, Web Application Architecture And Relational Database Design. Their Ecosystem. ADA Compliance Requirements. Front-end Web Development: Angular 2+, jQuery, HTML5, CSS, Bootstrap. OOP, .NET Framework, And C#. Agile Methodologies. Code Version Tools, Such As Git, SVN. Experience In JavaScript, jQuery, HTML. Standard Software Engineering Processes, Testing, And Agile Methodology"
+ },
+ {
+  "JobID": "JOB_002",
+  "JobTitle": "AI Engineer",
+  "technologySkill": "AI, C++, Linux, Python, CNN, Datalab, Deep Learning, GANs, GitHub, Google Colab, Jupyter, Kaggle, Keras, LSTM, Librosa, Machine Learning, Matplotlib, MySQL, NumPy, OpenCV, PIL Shipping, Pandas, PostgreSQL, PySpark, Pytorch, Recurrent Neural Network (RNN), Regex, SQL, Seaborn, Tensorflow, NLTK, Scikit-learn, APIs, Amazon Web Services (AWS), Cognitive Computing, Elastic Search, Google Cloud, Graph Database, IBM BlueMix, Azure, NoSQL, RDBMS, Apache Solr",
+  "Weight_Technology": {"AI": 2, "Python": 2, "Deep Learning": 2, "Machine Learning": 2, "C++": 1, "Linux": 1, "CNN": 1, "Datalab": 1, "GANs": 1, "GitHub": 1, "Google Colab": 1, "Jupyter": 1, "Kaggle": 1, "Keras": 1, "LSTM": 1, "Librosa": 1, "Matplotlib": 1, "MySQL": 1, "NumPy": 1, "OpenCV": 1, "PIL Shipping": 1, "Pandas": 1, "PostgreSQL": 1, "PySpark": 1, "Pytorch": 1, "Recurrent Neural Network (RNN)": 1, "Regex": 1, "SQL": 1, "Seaborn": 1, "Tensorflow": 1, "NLTK": 1, "Scikit-learn": 1, "APIs": 1, "Amazon Web Services (AWS)": 1, "Cognitive Computing": 1, "Elastic Search": 1, "Google Cloud": 1, "Graph Database": 1, "IBM BlueMix": 1, "Azure": 1, "NoSQL": 1, "RDBMS": 1, "Apache Solr": 1},
+  "knowledge": "Computer Vision: Data Preprocessing, Train A Model, Parameter Tuning. The Business Problem, Challenge Of Existing Technologies And Areas Of Application For AI Technologies The Central Concepts Of Machine Learning, Deep Learning, And Have Undertaken At Least One Hobbyprofessional Project Individually The Business Problem, Challenge Of Existing Technologies And Areas Of Application For AI Technologies"
+ },
+ {
+  "JobID": "JOB_003",
+  "JobTitle": "Android Developer",
+  "technologySkill": "Android, Firebase Cloud Messaging (FCM), Git, GitLab, RESTful API, Android SDK, SOAP, Gitflow, Google Maps, Java, React Native, SDK, C++, Dagger2, Kotlin, MVP, Android Native, CSS, HTML, Json, JavaScript, REST, XML, iOS, AVN (Audio-Video-Navigation), Google Colab, Jira, UML, VLM, Gerrit, Dependency Injection, HTTP, LiveData, MVC, MVVM, Retrofit, RxJava, SQL, SQLite, Volley, CI/CD, Google Cloud, TDD, Android Studio, Butter Knife, Google Gson, Picasso",
+  "Weight_Technology": {"Android": 10, "Kotlin": 5, "RESTful API": 4, "Java": 4, "Git": 3, "MVP": 3, "RxJava": 3, "SOAP": 2, "SDK": 2, "C++": 2, "Dagger2": 2, "Json": 2, "XML": 2, "MVVM": 2, "Retrofit": 2, "Firebase Cloud Messaging (FCM)": 1, "GitLab": 1, "Android SDK": 1, "Gitflow": 1, "Google Maps": 1, "React Native": 1, "Android Native": 1, "CSS": 1, "HTML": 1, "JavaScript": 1, "REST": 1, "iOS": 1, "AVN (Audio-Video-Navigation)": 1, "Google Colab": 1, "Jira": 1, "UML": 1, "VLM": 1, "Gerrit": 1, "Dependency Injection": 1, "HTTP": 1, "LiveData": 1, "MVC": 1, "SQL": 1, "SQLite": 1, "Volley": 1, "CI/CD": 1, "Google Cloud": 1, "TDD": 1, "Android Studio": 1, "Butter Knife": 1, "Google Gson": 1, "Picasso": 1},
+  "knowledge": "EXO Player Implementation. Efficient Design Patterns. FCM, Push Notification. Video Streaming, Multiple Bit Rates Implementation. Android SDK, Different Versions Of Android And How To Deal With Different Screen Sizes. Android UI Design Principles, Patterns, And Best Practices.  App ArchitecturenBusiness Requirements And Translate Them Into Technical Requirements. Code Versioning Tools, Such As Git. Google S Android DesignPrinciples And Interface Guidelines. The Open- Source Android Ecosystem And The Libraries Available For Common Tasks Network Connections, Rest API S And Scheduling. React Native. Security Standards( E.G. HTTPS) And Privacy Standards  Business Needs Driving Our Product Native Mobile Development For iOS And Android. REST, Json, XML, SOAP And Web Services. Relational Databases   Android Animations And Transitions. Android Lifecycle. Android SDK, Different Versions Of Android, And How To Deal With Different Screen Sizes. Android UI Design Principles, Patterns, And Best Practices. Business Requirements Then Translate Them Into Technical Requirements. CI/CD, TDD. Code Versioning Tools, Such As Git. Google’s Android Design Principles And Interface Guidelines. Security In Android. The Open- Source Android Ecosystem And The Libraries Available For Common Tasks. Programming Principle, Design Patterns, Algorithm, Database, Data Structure"
+ },
+ {
+  "JobID": "JOB_004",
+  "JobTitle": "Automation Tester",
+  "technologySkill": ", Jira, Python, React, Selenium, Apache ANT, AWS, Cucumber, Protractor, IBM Db2, Docker, Git, HP Application Lifecycle Management (HP ALM), Jenkins, JUnit, Microsoft Office, Microsoft Visio, Maven, SVN, Selenium Grid, Selenium WebDriver, SharePoint, Spring, Apache Struts, TestNG, VersionOne, XML, Android Studio, Appium, Java Jaws, JavaScript, Sauce Labs, Xcode, Java, Software Development Life Cycle (SDLC), SQL, GitHub, TestLink, File Aid, File Manager, JCL, C, Analyzer, CANape, CANoe, Pearl, Shell, SourceTree",
+  "Weight_Technology": {"Python": 5, "Jira": 4, "Selenium": 4, "": 3, "Jenkins": 3, "Git": 2, "Microsoft Office": 2, "Maven": 2, "SVN": 2, "JavaScript": 2, "Java": 2, "SQL": 2, "React": 1, "Apache ANT": 1, "AWS": 1, "Cucumber": 1, "Protractor": 1, "IBM Db2": 1, "Docker": 1, "HP Application Lifecycle Management (HP ALM)": 1, "JUnit": 1, "Microsoft Visio": 1, "Selenium Grid": 1, "Selenium WebDriver": 1, "SharePoint": 1, "Spring": 1, "Apache Struts": 1, "TestNG": 1, "VersionOne": 1, "XML": 1, "Android Studio": 1, "Appium": 1, "Java Jaws": 1, "Sauce Labs": 1, "Xcode": 1, "Software Development Life Cycle (SDLC)": 1, "GitHub": 1, "TestLink": 1, "File Aid": 1, "File Manager": 1, "JCL": 1, "C": 1, "Analyzer": 1, "CANape": 1, "CANoe": 1, "Pearl": 1, "Shell": 1, "SourceTree": 1},
+  "knowledge": "Technical Management, Information Analysis And Computer Hardware/ Software Systems Industry Standard Best Practices As Related To Software Testing Agile Approach To Software Development. Software Testing Lifecycle AWS. Build Tools Like Maven, ANT. Continuous Integration Tools Like Jenkins, Docker. Version Control Tools Like Git, SVN Software Development Lifecycle And Enterprise Value Delivery Methodology For Software Application Testing/ Deployment Process. Testing Deliverables Within Agile And Scrum Methodologies Java And/Or Python  Data Integration, SDLC The Software Development Life Cycle SDLC Software Test Life Cycle STLC. Tools Like Squish, Test Link Data Pipelines From Raw Data To Reporting, And Demonstrable SQL Skills Navigating Through TSO Screens Dynamic Software Verification And Tests. Functional Safety concepts(ISO26262). Operating Systems Software & Build Environments. Software Architecture Design & Autosar Architecture Agile Scrum, Automation Testing, Software Development Lifecycle, Software Testing Basic, Software Testing Level, Software Testing Methods, Software Testing Types  Product Testing Process"
+ },
+ {
+  "JobID": "JOB_005",
+  "JobTitle": "Backend Developer",
+  "technologySkill": "Bootstrap, Jenkins, OWASP, SonarQube, WCAG 2.1, GulpJS, AWS CDK, C++, Golang, Helm, Java, Python, Bazel, ELK, Elastic Search, Exotel, Cloud Firebase, Firestore, Google Cloud, Google Cloud Functions, Kibana, Logstash, MongoDB, MySQL, PostgreSQL, Twilio, CSS, Docker, GitHub, HTML, JQuery, JavaScript, Laravel, PHP, Yii",
+  "Weight_Technology": {"Bootstrap": 2, "Python": 2, "MySQL": 2, "Jenkins": 1, "OWASP": 1, "SonarQube": 1, "WCAG 2.1": 1, "GulpJS": 1, "AWS CDK": 1, "C++": 1, "Golang": 1, "Helm": 1, "Java": 1, "Bazel": 1, "ELK": 1, "Elastic Search": 1, "Exotel": 1, "Cloud Firebase": 1, "Firestore": 1, "Google Cloud": 1, "Google Cloud Functions": 1, "Kibana": 1, "Logstash": 1, "MongoDB": 1, "PostgreSQL": 1, "Twilio": 1, "CSS": 1, "Docker": 1, "GitHub": 1, "HTML": 1, "JQuery": 1, "JavaScript": 1, "Laravel": 1, "PHP": 1, "Yii": 1},
+  "knowledge": "Agile Scrum Or Lean Kanban Methodologies, DevSecOps, W3C WCAG 2.1, OWASP Top 10, Configuration Management, Operational Security  ELK(Elastic-Logstash-Kibana) Stack. Google Cloud Functions, Firestore, Firebase And Other GCP Services Like DialogFlow RESTful API, Data Structures And Algorithms, OOP. User Interface And Responsive Websites"
+ },
+ {
+  "JobID": "JOB_006",
+  "JobTitle": "Bridge Software Engineer",
+  "technologySkill": "Git, SVN",
+  "Weight_Technology": {"Git": 1, "SVN": 1},
+  "knowledge": "Front-end Framework (React Native), OOP Concepts And Design Patterns"
+ },
+ {
+  "JobID": "JOB_007",
+  "JobTitle": "Business Analyst",
+  "technologySkill": "Automation Anywhere, Blue Prism, Robotics Process Automation (RPA), UiPath, ETL, Microsoft Power BI, SAP BW, SSIS, SSRS, Tableau, IBM Db2, IBM, Microsoft Office, Report Program Generator (RPG), SAP ECC, XML, Microsoft Excel, Microsoft Outlook, Microsoft PowerPoint, SQL, Sisense, Microsoft Word, Microsoft Dynamics CRM 365, Microsoft Dynamics Great Plains, Microsoft Office 365, Apache Airflow, Databricks, GitHub, Pycharm, Redshift, Amazon S3, Data Lake, Microsoft Access, Microsoft Visio, , Visio, Oracle Liquidity Risk Management, Financial, Human Capital Management (HCM), Microsoft Office products, SAAS, Software Architect (SA), Amazon Web Services (AWS), Azure, CI/CD, Chef, DNS, Datadog, Docker, Elastic Search, GitLab, Google Cloud, Jenkins, Kubernetes, Linux, Puppet, Python, Splunk, TCP/IP, VLANs, Bash",
+  "Weight_Technology": {"Microsoft Excel": 4, "Microsoft Office": 3, "ETL": 2, "Microsoft Power BI": 2, "Tableau": 2, "Microsoft PowerPoint": 2, "SQL": 2, "Microsoft Word": 2, "Microsoft Access": 2, "Microsoft Visio": 2, "Automation Anywhere": 1, "Blue Prism": 1, "Robotics Process Automation (RPA)": 1, "UiPath": 1, "SAP BW": 1, "SSIS": 1, "SSRS": 1, "IBM Db2": 1, "IBM": 1, "Report Program Generator (RPG)": 1, "SAP ECC": 1, "XML": 1, "Microsoft Outlook": 1, "Sisense": 1, "Microsoft Dynamics CRM 365": 1, "Microsoft Dynamics Great Plains": 1, "Microsoft Office 365": 1, "Apache Airflow": 1, "Databricks": 1, "GitHub": 1, "Pycharm": 1, "Redshift": 1, "Amazon S3": 1, "Data Lake": 1, "Visio": 1, "Oracle Liquidity Risk Management": 1, "Financial": 1, "Human Capital Management (HCM)": 1, "Microsoft Office products": 1, "SAAS": 1, "Software Architect (SA)": 1, "Amazon Web Services (AWS)": 1, "Azure": 1, "CI/CD": 1, "Chef": 1, "DNS": 1, "Datadog": 1, "Docker": 1, "Elastic Search": 1, "GitLab": 1, "Google Cloud": 1, "Jenkins": 1, "Kubernetes": 1, "Linux": 1, "Puppet": 1, "Python": 1, "Splunk": 1, "TCP/IP": 1, "VLANs": 1, "Bash": 1},
+  "knowledge": "Blue Prism, RPA Platforms, Differentiation, Standard Frameworks And Analytical Tools Agile Methodologies. DB2 Query And SAP ECC. IBM I Series (AS400), DB2 Databases And RPG Program Development. XML, Web Services And Microsoft Office. eCommerce And PCI Requirements Retail Statistics And Enhancing Brand Performance Through Analysis. SQL The Requirements Of The Business And Stakeholders, And Translate Them In A Single, Clear Vision To IT And Executive Management (Anticipate) The Needs Of The Different Audiences And Address Them. Core Business Functions. How Large Databases Work. How Systems Interface With Each Other. The Value Of Validation Rule As IT Relates To The Quality Of Data Fixed Income / FX Products Like CDs, CPs, Bonds, Repo, Futures, Interest Rate Swaps, FX Spot, FX Forwards, FX Swaps. UNIX Tools Banking & Accounting To Assist & Guide Client In Streamlining Processes And Procedures. Basic Financial Analysis Principles And Ratios. Financial Services Industry Business Change Needs And Document The Requirements. Business Requirements. Needs For Data Analysis And Management Information. Security Polices, Web Services (SOAP/Rest), API Management (Highly Preferred)- Any Solution Accepted (How IT Works, How IT Helps Developers) I.E:, Google Mulesoft, Datapower Etc General Fixed Income/Equities And How They Are Processed In The Middle / Back Office. Investment Product SA Processes. Testing Processes And Methodologies Software Development Process, Especially Software Requirement Analysis  Business Requirements And Ability To Implement Them In A Timely Manner. IT Terminology ITIL V3 Service Management Frameworks UNIX/Linux Operating Systems And Linux Command Line"
+ },
+ {
+  "JobID": "JOB_008",
+  "JobTitle": "Business Intelligence Developer",
+  "technologySkill": "Business Intelligence (BI), Git, SSIS, SSRS, ETL, Microsoft Power BI, SAP BW, Tableau, Amazon Web Services (AWS), SQL, IBM Cognos, DataStage, Microsoft Oracle, Star Schema",
+  "Weight_Technology": {"Business Intelligence (BI)": 2, "SSIS": 2, "SSRS": 2, "ETL": 2, "Microsoft Power BI": 2, "Tableau": 2, "IBM Cognos": 2, "Git": 1, "SAP BW": 1, "Amazon Web Services (AWS)": 1, "SQL": 1, "DataStage": 1, "Microsoft Oracle": 1, "Star Schema": 1},
+  "knowledge": "Power BI, AWS And SQL"
+ },
+ {
+  "JobID": "JOB_009",
+  "JobTitle": "C# Developer",
+  "technologySkill": "C#, JavaScript, Microsoft SQL Server, MVC, T-SQL, WCF, Web Services, Windows, Caliburn, Entity Framework, Git, LinQ, MVVM, Microsoft DevOps, Nunit, ORM, Prism, SQL, WPF, Xunit, CSS, HTML5, React",
+  "Weight_Technology": {"C#": 2, "JavaScript": 2, "Microsoft SQL Server": 2, "T-SQL": 2, "MVC": 1, "WCF": 1, "Web Services": 1, "Windows": 1, "Caliburn": 1, "Entity Framework": 1, "Git": 1, "LinQ": 1, "MVVM": 1, "Microsoft DevOps": 1, "Nunit": 1, "ORM": 1, "Prism": 1, "SQL": 1, "WPF": 1, "Xunit": 1, "CSS": 1, "HTML5": 1, "React": 1},
+  "knowledge": "Software Design Patterns, Data Structure And Algorithms. UI Toolkits Such As DevExpress, Mahaoos.Metro, Infragistics, Telerik. Unit Testing Framework (Nunit Or Xunit) And How To Write Clean, Error-Tolerant Code Using TDD"
+ },
+ {
+  "JobID": "JOB_010",
+  "JobTitle": "C++ Developer",
+  "technologySkill": "ANSIBLE, C++, SQL, CUDA, MFC, OpenGL, Python, Qt, Winforms, C, DDS, Real-Time Operating Systems (RTOS), UML",
+  "Weight_Technology": {"C++": 4, "ANSIBLE": 1, "SQL": 1, "CUDA": 1, "MFC": 1, "OpenGL": 1, "Python": 1, "Qt": 1, "Winforms": 1, "C": 1, "DDS": 1, "Real-Time Operating Systems (RTOS)": 1, "UML": 1},
+  "knowledge": "Debugging. Dynamic Polymorphism And C ++ Specific Notions, Such As Friend Classes. Low- Level Threading Primitives And Real- Time Environments. Memory Management, Pointers In Non-Garbage Collected Environments. Relational Database & SQL. The Language Specification. The Standard Library As Specified By ISO And ANSI  Networking And Concurrency"
+ },
+ {
+  "JobID": "JOB_011",
+  "JobTitle": "Data Analyst",
+  "technologySkill": "Business Objects, ETL, Microsoft Excel, JavaScript, SAS, SPSS, SQL, XML, CSPRO, Eview, Java, Microsoft Access, MySQL, STATA, VBA, Alteryx, Python, R, Tableau, AI, CI/CD, Machine Learning, OCR, Microsoft Power BI, Qlik, SSAS, SSIS, Talend, Business Intelligence (BI), BigData, Google Data Studio, Mobile, PL SQL, Drug Safety, EDC, TIBCO Spotfire, Teradata, Toad, Microft Power BI, Amazon Athena, Look, Looker, Presto, Microsoft Office, Sequel, DBMS, Microsoft Oracle, ThoughtSpot, IBM, SharePoint, JSON, Amazon Lambda, Amazon RDS, Amazon S3, Holistics, PostgreSQL",
+  "Weight_Technology": {"SQL": 9, "Tableau": 8, "Microsoft Excel": 5, "Python": 5, "ETL": 3, "SAS": 3, "SPSS": 3, "XML": 3, "R": 3, "Business Objects": 2, "JavaScript": 2, "Alteryx": 2, "Machine Learning": 2, "Microsoft Power BI": 2, "Qlik": 2, "Google Data Studio": 2, "Looker": 2, "CSPRO": 1, "Eview": 1, "Java": 1, "Microsoft Access": 1, "MySQL": 1, "STATA": 1, "VBA": 1, "AI": 1, "CI/CD": 1, "OCR": 1, "SSAS": 1, "SSIS": 1, "Talend": 1, "Business Intelligence (BI)": 1, "BigData": 1, "Mobile": 1, "PL SQL": 1, "Drug Safety": 1, "EDC": 1, "TIBCO Spotfire": 1, "Teradata": 1, "Toad": 1, "Microft Power BI": 1, "Amazon Athena": 1, "Look": 1, "Presto": 1, "Microsoft Office": 1, "Sequel": 1, "DBMS": 1, "Microsoft Oracle": 1, "ThoughtSpot": 1, "IBM": 1, "SharePoint": 1, "JSON": 1, "Amazon Lambda": 1, "Amazon RDS": 1, "Amazon S3": 1, "Holistics": 1, "PostgreSQL": 1},
+  "knowledge": "Reporting Packages (Business Objects Etc), Databases (SQL Etc), Programming (XML, Javascript, Or ETL Frameworks). Statistics Programming Languages( VBA/ Java, Etc., ) And Relational Database Applications( MS Access/ mySQL/ SQL…). Programming On Tablet. Statistics Software( Ie. STATA, SPSS, CSPRO, Eview, …)  DevOps, CI/ CD And Security. Information Management System. Mathematic/ Statistic. New Technology Trend( OCR, Ai/ ML) The Flow Of Data From Origin To Data Warehouse  Data Governance Standards. Database Design Tradeoffs, Impacts On User Expectations And Performance Levels. Relational Databases And Proficiency In Writing Queries (SQL And PL/SQL) Analytics Platforms (Such As Spotfire And Tableau) And Visualization And Visualization Techniques And Concepts. Pharmaceutical Industry, And Clinical Lifecycle. Pharmaceutical Systems (I.E. Clinical Trial Management Systems, Drug Safety, EDC) And Technical Details Of Data Management In Those Environments. R, Python And Advanced Analytics. Writing Queries With SQL  Microsoft Excel, Tableau, And Power BI   Relational DBMS, Specifically Oracle, And Ability To Script And Execute SQL Queries. The Principles And Tools Of Statistical Analysis And Machine Learning  AWS (S3, RDS, Lambda) Concepts. ETL Processes. How To Read And Use XML, JSON. SQL Reporting Packages (Business Objects Etc), Databases (SQL Etc), Programming (XML, Javascript, Or ETL Frameworks), Statistics Key Concepts, Techniques And Considerations In Data Analytics"
+ },
+ {
+  "JobID": "JOB_012",
+  "JobTitle": "Data Analytics",
+  "technologySkill": "Alteryx, Python, R, SQL, Tableau, Microsoft Excel, MatLab, NumPy, Microsoft Outlook, Microsoft PowerPoint, Weka, Microsoft Word, Amazon Web Services (AWS), SAS, Apache Accumulo, Apache Cassandra, Amazon DynamoDB, Apache Hbase, Apache Hadoop, MongoDB",
+  "Weight_Technology": {"Python": 3, "R": 3, "SQL": 2, "Tableau": 2, "Alteryx": 1, "Microsoft Excel": 1, "MatLab": 1, "NumPy": 1, "Microsoft Outlook": 1, "Microsoft PowerPoint": 1, "Weka": 1, "Microsoft Word": 1, "Amazon Web Services (AWS)": 1, "SAS": 1, "Apache Accumulo": 1, "Apache Cassandra": 1, "Amazon DynamoDB": 1, "Apache Hbase": 1, "Apache Hadoop": 1, "MongoDB": 1},
+  "knowledge": "The Electric Vehicle And/Or DER Market And Related Policies And Technologies Emerging Data Analytic Technologies Such As Predictive Analytics, Machine Learning, And Robotics To Aid In Risk Assessment And Assurance"
+ },
+ {
+  "JobID": "JOB_013",
+  "JobTitle": "Data Architect",
+  "technologySkill": "ER Studio, ETL, Erwin Data Modeler, NoSQL, SQL, Business Intelligence (BI), Business Objects, Clarabridge, Data Warehouse, Apache Hbase, Apache Hive, Informatica, MicroStrategy, OBIEE, Rational Unified Process (RUP), SAS, Apache Spark, SPSS, TIBCO Spotfire, Waterfall, Amazon Web Services (AWS), Amazon EMR, Apache Hadoop, JavaScript, MySQL, PostgreSQL, Python, Redshift, Amazon S3, Snowflake, PL SQL",
+  "Weight_Technology": {"SQL": 3, "ER Studio": 2, "Erwin Data Modeler": 2, "Apache Hive": 2, "Apache Spark": 2, "ETL": 1, "NoSQL": 1, "Business Intelligence (BI)": 1, "Business Objects": 1, "Clarabridge": 1, "Data Warehouse": 1, "Apache Hbase": 1, "Informatica": 1, "MicroStrategy": 1, "OBIEE": 1, "Rational Unified Process (RUP)": 1, "SAS": 1, "SPSS": 1, "TIBCO Spotfire": 1, "Waterfall": 1, "Amazon Web Services (AWS)": 1, "Amazon EMR": 1, "Apache Hadoop": 1, "JavaScript": 1, "MySQL": 1, "PostgreSQL": 1, "Python": 1, "Redshift": 1, "Amazon S3": 1, "Snowflake": 1, "PL SQL": 1},
+  "knowledge": "All Aspects Of The Data Architecture And Data Model(S) From Conceptual To Logical To Physical And Leading The Design And Development Of The Related Artifacts. Business Analytics, Systems Development And Integration And Data Architecture Advance Analytics Needs Such As Predictive/Cognitive Analytics Concepts. Best Practices Through Relevant Experience Across Data-Related Disciplines And Technologies, Particularly For Enterprise-Wide Data Architectures, Data Management, Data Governance And Data Warehousing. Data Modeling, Design And Architecture Principles And Techniques Across Master Data, Transaction Data And Derived/Analytic Data. Modern Data Warehouse Concepts. Roles And Responsibilities Within BI And Data Warehousing (DA, ETL, BI, DBA, SE, QA, And PM). SDLCs (RUP, Waterfall, And Agile)  Data Governance Standards. Database Design Tradeoffs, Impacts On User Expectations And Performance Levels. Relational Databases And Proficiency In Writing Queries (SQL And PL/SQL)"
+ },
+ {
+  "JobID": "JOB_014",
+  "JobTitle": "Data Engineer",
+  "technologySkill": "AWS Ecosystem, BigQuery, Google Cloud, Apache Kafka, Apache NIFI, Python, R, Redshift, Apache Spark, SQL, Amazon Web Services (AWS), Amazon EMR, Apache Hadoop, Apache Hive, JavaScript, MySQL, PostgreSQL, Amazon S3, Snowflake, AtScale, Microsoft Oracle, Apache Impala, Looker, OLAP, Microsoft Power BI, SAP BW, SSAS, Scala, Shiny, Tableau, C, C#, C++, NodeJS, Apache Airflow, Apache Avro, Apache Flink, Google Analytics, Apache Hbase, Java, Java Spring, Kubernetes, Apache Parquet, Apache Samza, SAS, Amazon Athena, Google Cloud Platform (GCP), NumPy, Pandas, ETL, GCP, Elastic Search, MPP Platforms, MongoDB, Apache Storm, Bash, API, Google App Engine, Atlassian, Bitbucket, CI/CD, Cloud Bigtable, Cloud Composer, Cloud DataStore, Cloud Dataflow, Cloud Dataprep, Cloud Dataproc, Cloud Spanner, Cloud Storage, Cloud SQL, Cloud DataPrep, GitLab, Jenkins, Microservices, Stackdriver, AI, BigData, Evolutionary Algorithms, Fuzzy Logic, Neural Networks, OLTP, APIs, Git, NoSQL, REST, Version Control, GPC, Control-M, Apache Oozie, HDFS",
+  "Weight_Technology": {"Python": 16, "SQL": 11, "Apache Spark": 10, "Apache Hadoop": 10, "Apache Hive": 7, "Java": 7, "Apache Kafka": 6, "BigQuery": 5, "Scala": 5, "R": 4, "Amazon Web Services (AWS)": 4, "Redshift": 3, "ETL": 3, "JavaScript": 2, "MySQL": 2, "PostgreSQL": 2, "Snowflake": 2, "OLAP": 2, "C": 2, "C#": 2, "C++": 2, "Kubernetes": 2, "SAS": 2, "Google Cloud Platform (GCP)": 2, "BigData": 2, "AWS Ecosystem": 1, "Google Cloud": 1, "Apache NIFI": 1, "Amazon EMR": 1, "Amazon S3": 1, "AtScale": 1, "Microsoft Oracle": 1, "Apache Impala": 1, "Looker": 1, "Microsoft Power BI": 1, "SAP BW": 1, "SSAS": 1, "Shiny": 1, "Tableau": 1, "NodeJS": 1, "Apache Airflow": 1, "Apache Avro": 1, "Apache Flink": 1, "Google Analytics": 1, "Apache Hbase": 1, "Java Spring": 1, "Apache Parquet": 1, "Apache Samza": 1, "Amazon Athena": 1, "NumPy": 1, "Pandas": 1, "GCP": 1, "Elastic Search": 1, "MPP Platforms": 1, "MongoDB": 1, "Apache Storm": 1, "Bash": 1, "API": 1, "Google App Engine": 1, "Atlassian": 1, "Bitbucket": 1, "CI/CD": 1, "Cloud Bigtable": 1, "Cloud Composer": 1, "Cloud DataStore": 1, "Cloud Dataflow": 1, "Cloud Dataprep": 1, "Cloud Dataproc": 1, "Cloud Spanner": 1, "Cloud Storage": 1, "Cloud SQL": 1, "Cloud DataPrep": 1, "GitLab": 1, "Jenkins": 1, "Microservices": 1, "Stackdriver": 1, "AI": 1, "Evolutionary Algorithms": 1, "Fuzzy Logic": 1, "Neural Networks": 1, "OLTP": 1, "APIs": 1, "Git": 1, "NoSQL": 1, "REST": 1, "Version Control": 1, "GPC": 1, "Control-M": 1, "Apache Oozie": 1, "HDFS": 1},
+  "knowledge": "Data Management And Storage Principles. Distributed Systems Related To Data Storage And Computing Data And Analytics, Such As Dimensional Modeling, ETL, Reporting Tools, Data Governance, Data Warehousing, Structured And Unstructured Data. Data Preparation, Data Wrangling, And Feature Engineering  Fine Tuning SQL. Optimizers, And Execution Plans Databases  Relevant Engineering Best Practices, Data Management Fundamentals, Data Storage Principles, And Be Current With Recent Advances In Distributed Systems As IT Pertains To Data Storage And Computing   Practicing Agile Software Development Methodologies Such As Test Driven Development. The Principles Of Building Robust Data Processing Pipeline And Track Record Of Putting Them In Practice Various Data Storage Formats And Its Advantages  Architecture, Design And Business Processes. Data Architecture And Modeling Practices And Concepts Including Entity-Relationship Diagrams, Normalization, Abstraction, Denormalization, Dimensional Modeling, And Meta Data Modeling Practices. Spark & Hive. System Development Lifecycle Methodologies, Such As Waterfall And AGILE. Web Technologies, Application Programming Languages, OLTP/OLAP Technologies, Data Strategy Disciplines, Relational Databases, Data Warehouse Development And Big Data Solutions Finance & Banking Systems, Fraud, Payments Continuous Integration/Continuous Deployment. How To Architect Solutions In Cloud Platforms Like GCP, AWS, Microsoft Azure. REST APIs, Http Server, MVC Architecture Building And Managing APIs To Industry-Accepted RESTful Standards. Git And Its Commands. SQL Coordination Skills To Manage The Multi-Vendor Environment Supports. SQL Databases, DB Structures, Principles And Theories Along With Code Release Experience In Production Environments"
+ },
+ {
+  "JobID": "JOB_015",
+  "JobTitle": "Data Scientist",
+  "technologySkill": "R, R Shiny, Rstudio, Azure Data Factory, Databricks, Python, Apache Spark, Snowflake, C, Data Visualization Tools, ETL, Java, SQL, Amazon Web Services (AWS), Amazon EMR, Amazon S3, Amazon Elastic Computing (EC2), Redshift, Apache Hadoop, Pytorch, Tensorflow, Apache Hive, Dataiku, Altair, Dask, HDF5, JavaScript, Matplotlib, NodeJS, NumPy, Pandas, Apache Parquet, React, SciPy, Vega-Lite, D3.js, Scikit-learn, Machine Learning, SAS, SPSS Modeler, SPSS Statistics, Tableau, Deep Learning",
+  "Weight_Technology": {"Python": 6, "R": 5, "SQL": 4, "Apache Spark": 3, "Apache Hadoop": 3, "Machine Learning": 2, "": 1, "R Shiny": 1, "Rstudio": 1, "Azure Data Factory": 1, "Databricks": 1, "Snowflake": 1, "C": 1, "Data Visualization Tools": 1, "ETL": 1, "Java": 1, "Amazon Web Services (AWS)": 1, "Amazon EMR": 1, "Amazon S3": 1, "Amazon Elastic Computing (EC2)": 1, "Redshift": 1, "Pytorch": 1, "Tensorflow": 1, "Apache Hive": 1, "Dataiku": 1, "Altair": 1, "Dask": 1, "HDF5": 1, "JavaScript": 1, "Matplotlib": 1, "NodeJS": 1, "NumPy": 1, "Pandas": 1, "Apache Parquet": 1, "React": 1, "SciPy": 1, "Vega-Lite": 1, "D3.js": 1, "Scikit-learn": 1, "SAS": 1, "SPSS Modeler": 1, "SPSS Statistics": 1, "Tableau": 1, "Deep Learning": 1},
+  "knowledge": "Code Writing. Possess Advanced Statistics / Machine Learning. Statistics, Programming And Predictive Modeling Corporate Security And The Insider Threat Problem Domain And Associated Technologies And Analytical Methodologies. Data Analysis Algorithms Including: Data Mining, Inferential Statistics, Mathematical Optimization, Machine Learning, Natural Language Processing, Text Mining, And Visual Analytics  Data Hadoop, EMR S3 EC2 Redshift Agile Ceremonies  Military Aviation Desired, Especially Related To Analytics Mathematical Foundations Of Machine Learning Algorithms Advanced Statistical Techniques And Concepts. Database And Analytical Technologies In The Industry Design Research And Practices For Crossed Domain Interdisciplinary Practices. Graph Theory, Ontology And Graph Neural Network. Research Paper On Advance Machine Learning And Deep Learning Domains"
+ },
+ {
+  "JobID": "JOB_016",
+  "JobTitle": "Database Administrator (DBA)",
+  "technologySkill": "SQL, Microsoft SQL Server, Azure, DMVs, FedRamp, Json, Microsoft Power BI, Performance Monitor (Perfmon), SQL Profiler, SSAS, SSIS, SSMS, SSRS, Microsoft Visual Studio, Microsoft Azure, XML, Singleton",
+  "Weight_Technology": {"Microsoft SQL Server": 4, "SQL": 3, "Azure": 2, "DMVs": 1, "FedRamp": 1, "Json": 1, "Microsoft Power BI": 1, "Performance Monitor (Perfmon)": 1, "SQL Profiler": 1, "SSAS": 1, "SSIS": 1, "SSMS": 1, "SSRS": 1, "Microsoft Visual Studio": 1, "Microsoft Azure": 1, "XML": 1, "Singleton": 1},
+  "knowledge": "Index Management, Integrity Checks, Configuration, Patching. Microsoft Power BI. inistratornSQL Server Tools ( Profiler, SSIS, SSMS, SSRS, SSAS, PerfMon, DMVs)"
+ },
+ {
+  "JobID": "JOB_017",
+  "JobTitle": "DevOps Engineer",
+  "technologySkill": "Amazon Web Services (AWS), Docker, GitLab, CI/CD, Jenkins, Kubernetes, Google Cloud, Linux, MacOS, Pipeline, Azure PowerShell, Sonar, Bash, DevOps, Docker Swarm, MongoDB, MySQL, REDIS, Ansible, AppDynamics, Azure, CSS, Dynatrace, HTML, JavaScript, MTTD, MTTR, New Relic, Puppet, SLAs, SLIs, SLOs, Splunk, Bamboo, C#, C++, Chef, Git, Helm, JSON, Mercurial, NoSQL, Python, SQL, XML",
+  "Weight_Technology": {"Docker": 3, "CI/CD": 3, "Kubernetes": 3, "Google Cloud": 3, "Amazon Web Services (AWS)": 2, "Puppet": 2, "GitLab": 1, "Jenkins": 1, "Linux": 1, "MacOS": 1, "Pipeline": 1, "Azure PowerShell": 1, "Sonar": 1, "Bash": 1, "DevOps": 1, "Docker Swarm": 1, "MongoDB": 1, "MySQL": 1, "REDIS": 1, "Ansible": 1, "AppDynamics": 1, "Azure": 1, "CSS": 1, "Dynatrace": 1, "HTML": 1, "JavaScript": 1, "MTTD": 1, "MTTR": 1, "New Relic": 1, "SLAs": 1, "SLIs": 1, "SLOs": 1, "Splunk": 1, "Bamboo": 1, "C#": 1, "C++": 1, "Chef": 1, "Git": 1, "Helm": 1, "JSON": 1, "Mercurial": 1, "NoSQL": 1, "Python": 1, "SQL": 1, "XML": 1},
+  "knowledge": "Working As A DevOps Or Related Position In A Product Company DevOps Concepts Like SLAs, SLOs, SLIs, Error Budgets, MTTR, MTTD, Etc"
+ },
+ {
+  "JobID": "JOB_018",
+  "JobTitle": "Embedded Software Engineer",
+  "technologySkill": "C, C++, IPv4, IPv6, SNMP, TCP/IP, TR-069, Embedded Linux",
+  "Weight_Technology": {"C": 1, "C++": 1, "IPv4": 1, "IPv6": 1, "SNMP": 1, "TCP/IP": 1, "TR-069": 1, "Embedded Linux": 1},
+  "knowledge": "TCP/IP, IPv4, IPv6, SNMP, TR-069 And 802.11 Series"
+ },
+ {
+  "JobID": "JOB_019",
+  "JobTitle": "Frontend Developer",
+  "technologySkill": "Bitbucket, GitHub, Java, JavaScript, MongoDB, MySQL, NodeJS, Laravel, PostgreSQL, CMS WordPress, Angular, Google Analytics, Graph API, HTML5, InVision, Marvel, Microsoft OneNote, Moqups, NPM, Adobe Photoshop, SASS, SCSS, Tableau, TypeScript, GulpJS, Webpack, CSS, Confluence, Git, Apache Groovy, Jenkins, Jira, Jira Service Desk, ScriptRunner, C++, C#, HTML, Json, Python, REST, SNMP, SOAP, UI, UX, React, VueJS, JavaScript Frameworks, React Native, CSS3, DJANGO, AJAX, Amazon Web Services (AWS), PHP, Bootstrap, JQuery, Joomla, Babel, Browserify, CMS, CommonJS, DOM, HTTP2, Linux, MacOS, ReuqireJS, GruntJS, LESS, Redux, RxJs, SVN, TFS, UI5",
+  "Weight_Technology": {"JavaScript": 8, "CSS": 6, "Angular": 5, "HTML5": 5, "Java": 4, "HTML": 4, "React": 4, "VueJS": 4, "TypeScript": 3, "Git": 3, "Python": 3, "CSS3": 3, "Bitbucket": 2, "CMS WordPress": 2, "SASS": 2, "SCSS": 2, "GulpJS": 2, "Webpack": 2, "PHP": 2, "Bootstrap": 2, "JQuery": 2, "GitHub": 1, "MongoDB": 1, "MySQL": 1, "NodeJS": 1, "Laravel": 1, "PostgreSQL": 1, "Google Analytics": 1, "Graph API": 1, "InVision": 1, "Marvel": 1, "Microsoft OneNote": 1, "Moqups": 1, "NPM": 1, "Adobe Photoshop": 1, "Tableau": 1, "Confluence": 1, "Apache Groovy": 1, "Jenkins": 1, "Jira": 1, "Jira Service Desk": 1, "ScriptRunner": 1, "C++": 1, "C#": 1, "Json": 1, "REST": 1, "SNMP": 1, "SOAP": 1, "UI": 1, "UX": 1, "JavaScript Frameworks": 1, "React Native": 1, "DJANGO": 1, "AJAX": 1, "Amazon Web Services (AWS)": 1, "Joomla": 1, "Babel": 1, "Browserify": 1, "CMS": 1, "CommonJS": 1, "DOM": 1, "HTTP2": 1, "Linux": 1, "MacOS": 1, "ReuqireJS": 1, "GruntJS": 1, "LESS": 1, "Redux": 1, "RxJs": 1, "SVN": 1, "TFS": 1, "UI5": 1},
+  "knowledge": "Agile Project Management Tools. Web Front-End Development Using One Of Popular Frameworks: Angular 2+/React/Vue. Web Load Testing, Client-Side Caching, HTTP / HTTPS, Etc Angular 5+. Content Management Systems And Learning Management Systems. Google Analytics Tracking Code. Microsoft OneNote API And Graph API. Tableau 10.5. Web Security And Performance Techniques Basic SQL And/Or JQL Query. The Software Development Cycle Object Oriented Programming And At Least One Server Side Language - Python, C++, C#, Java Etc. TypeScript And Miscroservices Architectire Is Desirable But Not Essental. UX / UI Principles React, JavaScript (ES6), Vue And HTML. Using Git In A Team Context. Web Performance Optimisation   The Differences Between Multiple Delivery Platforms (E.G. Mobile Vs Desktop) And Optimizing Output To Match The Specific Platform (E.G. HTML5, And CSS3) Agile Style Development. Cloud Development Such As AWS. Cross Browser Compatibility. Graph/Chart Generating Libraries/Modules. Integrating With Server-Side APIs Using AJAX Technology Such As jQuery. Usability And User Experience (UX) Design. Using Angular, React, Vue Or Equivalent. Web Based Programming Languages Such As Python, Java, PHP Etc  Code Split Testing And CMS. HTML5, CSS3. HTTP2. Modern Web Development Technologies & Framework Based On JavaScript, HTML, CSS, JQuery Bootstrap; CSS Animation/Transition, DOM. Native Javascript Es5 & Es6+. NodeJS, MongoDB, ReactJS. Object-Oriented Programming Modeling. Realtime With Websocket. Web Performance Front-End Component-Based Architectures. HTML5 And CSS3"
+ },
+ {
+  "JobID": "JOB_020",
+  "JobTitle": "Fullstack Developer",
+  "technologySkill": "Azure, CSS, Git, GraphQL, HTML5, Jira, NoSQL, RDBMS, REST, SOLID, Microsoft SQL Server, Visual Studio Code (VSCode), Visual Studio Team System (VSTS), Microsoft Visual Studio, C#, C++, Delphi, HTML, Java, ReactJS, SQL, JavaScript, Machine Learning, NLP, React, NodeJS, Angular, VueJS, Amazon Web Services (AWS), JQuery, Linux, NumPy, Python, SciPy, TypeScript, VTK",
+  "Weight_Technology": {"CSS": 4, "HTML": 3, "JavaScript": 3, "NodeJS": 3, "Git": 2, "REST": 2, "C#": 2, "C++": 2, "React": 2, "Angular": 2, "Azure": 1, "GraphQL": 1, "HTML5": 1, "Jira": 1, "NoSQL": 1, "RDBMS": 1, "SOLID": 1, "Microsoft SQL Server": 1, "Visual Studio Code (VSCode)": 1, "Visual Studio Team System (VSTS)": 1, "Microsoft Visual Studio": 1, "Delphi": 1, "Java": 1, "ReactJS": 1, "SQL": 1, "Machine Learning": 1, "NLP": 1, "VueJS": 1, "Amazon Web Services (AWS)": 1, "JQuery": 1, "Linux": 1, "NumPy": 1, "Python": 1, "SciPy": 1, "TypeScript": 1, "VTK": 1},
+  "knowledge": "Current Best Practices Of Web Application Development Using HTML 5 And CSS. Software Engineering Best Practices Such As SOLID Principles And Design Patterns    User Experience Databases (SQL And NoSQL)"
+ },
+ {
+  "JobID": "JOB_021",
+  "JobTitle": "IT Network Administrator",
+  "technologySkill": "Active Directory (AD), Azure Virtual Network, Exchange Server Virtualization with Hyper-V, RADIUS, TACACS+, Windows Server, Amazon Web Services (AWS), Azure, Backup Exec, Cisco, Dell, EMC, HP, Nutanix Enterprise Cloud, VMWare, Veeam, Windows",
+  "Weight_Technology": {"Active Directory (AD)": 1, "Azure Virtual Network": 1, "Exchange Server Virtualization with Hyper-V": 1, "RADIUS": 1, "TACACS+": 1, "Windows Server": 1, "Amazon Web Services (AWS)": 1, "Azure": 1, "Backup Exec": 1, "Cisco": 1, "Dell": 1, "EMC": 1, "HP": 1, "Nutanix Enterprise Cloud": 1, "VMWare": 1, "Veeam": 1, "Windows": 1},
+  "knowledge": "Azure Vnet. Virtualization( Hyper- V) And Cloud Computing Backup/Restore Software (Veeam, Backup Exec). CISCO Equipment. CLOUD Based Environment. Server Hardware (DELL, HP). Storage Systems (EMC, DELL). Virtualization (VMWare, Nutanix). Windows 2008/2012/2016/2019. Workstations With W7, W10"
+ },
+ {
+  "JobID": "JOB_022",
+  "JobTitle": "Java Developer",
+  "technologySkill": "IBM Db2, Enterprise Javabeans (EJB), J2EE, JDBC, Json, JavaServer Pages (JSP), JavaScript, Microsoft Oracle, SQL, Spring MVC, XHTML, XML, CI/CD, CSS, Docker, ExpressJS, Git, HTML, Jenkins, Kubernetes, Microservices, NodeJS, REST, RESTful API, Spring Boot, Android, Ansible, Chef, Confluence, Container, Eclipse, IntelliJ IDE, Java, Jira, MVC, Maven, NoSQL, Postman, Puppet, Slack, iOS, Google Cloud, Angular, HTML5, JavaServer Faces (JSF), Java Portal Server, React, VueJS, AngularJS, JSON, Apache Tomcat, DRY, KISS, MongoDB, SOAP, SOLID, Bootstrap, Cloud, JQuery, Java Core, Microsoft SQL Server, SVN, Sonar, Spring Core, TFS, JBOSS EAP, JBPM, Akka, Continuous Delivery (CD)",
+  "Weight_Technology": {"Java": 10, "J2EE": 8, "JavaScript": 6, "CSS": 5, "Git": 4, "Spring Boot": 4, "SQL": 3, "HTML": 3, "Jenkins": 3, "HTML5": 3, "JavaServer Pages (JSP)": 2, "Microsoft Oracle": 2, "CI/CD": 2, "Kubernetes": 2, "REST": 2, "RESTful API": 2, "MVC": 2, "Maven": 2, "Google Cloud": 2, "Angular": 2, "Apache Tomcat": 2, "IBM Db2": 1, "Enterprise Javabeans (EJB)": 1, "JDBC": 1, "Json": 1, "Spring MVC": 1, "XHTML": 1, "XML": 1, "Docker": 1, "ExpressJS": 1, "Microservices": 1, "NodeJS": 1, "Android": 1, "Ansible": 1, "Chef": 1, "Confluence": 1, "Container": 1, "Eclipse": 1, "IntelliJ IDE": 1, "Jira": 1, "NoSQL": 1, "Postman": 1, "Puppet": 1, "Slack": 1, "iOS": 1, "JavaServer Faces (JSF)": 1, "Java Portal Server": 1, "React": 1, "VueJS": 1, "AngularJS": 1, "JSON": 1, "DRY": 1, "KISS": 1, "MongoDB": 1, "SOAP": 1, "SOLID": 1, "Bootstrap": 1, "Cloud": 1, "JQuery": 1, "Java Core": 1, "Microsoft SQL Server": 1, "SVN": 1, "Sonar": 1, "Spring Core": 1, "TFS": 1, "JBOSS EAP": 1, "JBPM": 1, "Akka": 1, "Continuous Delivery (CD)": 1},
+  "knowledge": "Designing/Developing Web Applications Using Object Oriented And J2EE Concepts. Multiple Frameworks. Relational Databases Such As Oracle, DB2, MS- SQL- XML, XHTML, JSON Code Versioning Tools Such As Git A Java IDE Like Eclipse, IntelliJ  JavaScript/NodeJS. Object Oriented Analysis  Eithe SQL On The Backend Or React On The Front End Algorithms And Data Structures Broad Business And Finance Related. General Business. Object Oriented Programming, Design Patterns, Relational Database Design, Operating Systems, Networking Concepts, And Systems Integration Coding In Java. HTML, CSS, And JavaScript. Product Development Lifecycle And DevOps Tools Like Jenkins. SDLC Methodologies (Agile, SCRUM, And Others). Salesforce Deployment Process. Several Of The Following Areas Is Desirable: Active Server Pages (ASP), JavaScript, And SQL Server, Visual Basic, JavaScript, MS Access, HTML, DBMSs (Ex. - Oracle, SQL Server, Etc.)  Concurrency Patterns In Java. Its Ecosystems. Microservice Architecture. Object-Oriented Programming And Principles Of Development (E.G. SOLID, DRY, KISS...) Cloud, Maven, Tomcat, Jenkins, Sonar, Microservices Architecture. Front-end Web Development: Angular 2+, jQuery, HTML5, CSS, Bootstrap. Spring Security, JPA, Hibernate, Junit   SQL, Git, And Continuous Delivery. Software Architecture And High-Quality Code"
+ },
+ {
+  "JobID": "JOB_023",
+  "JobTitle": "Junior Business Intelligence Developer",
+  "technologySkill": "ELT, Microsoft SQL Server, MySQL, NoSQL, PostgreSQL, Microsoft Power BI, SQL",
+  "Weight_Technology": {"ELT": 1, "Microsoft SQL Server": 1, "MySQL": 1, "NoSQL": 1, "PostgreSQL": 1, "Microsoft Power BI": 1, "SQL": 1},
+  "knowledge": "Different Business Applications (ERP) And Business Processes. ELT/ETL Tools And SQL Scripts. MS SQL, PostgreSQL, MySQL. NoSQL"
+ },
+ {
+  "JobID": "JOB_024",
+  "JobTitle": "Junior Fullstack Developer",
+  "technologySkill": "Angular, CSS, Git, HTML, JavaScript, MySQL, Ruby on Rails, SQL, Apache Subversion",
+  "Weight_Technology": {"Angular": 1, "CSS": 1, "Git": 1, "HTML": 1, "JavaScript": 1, "MySQL": 1, "Ruby on Rails": 1, "SQL": 1, "Apache Subversion": 1}
+ },
+ {
+  "JobID": "JOB_025",
+  "JobTitle": "Junior Project Manager",
+  "technologySkill": "Microsoft Excel, SharePoint, Microsoft PowerPoint, Microsoft Word",
+  "Weight_Technology": {"Microsoft Excel": 1, "SharePoint": 1, "Microsoft PowerPoint": 1, "Microsoft Word": 1},
+  "knowledge": "Project Life Cycle Methodologies And System Development Life Cycle"
+ },
+ {
+  "JobID": "JOB_026",
+  "JobTitle": "Junior QC Tester",
+  "technologySkill": "CMS, CSS, Commerce Services Provider (CSP), Confluence, HTML, Jira, Markdown, Postman, RESTful API, Selenium",
+  "Weight_Technology": {"CMS": 1, "CSS": 1, "Commerce Services Provider (CSP)": 1, "Confluence": 1, "HTML": 1, "Jira": 1, "Markdown": 1, "Postman": 1, "RESTful API": 1, "Selenium": 1},
+  "knowledge": "Cutting-Edge Technology. HTML, CSS. JavaScript. Stress Test For Jmeter"
+ },
+ {
+  "JobID": "JOB_027",
+  "JobTitle": "Junior Software Engineer",
+  "technologySkill": "HTML",
+  "Weight_Technology": {"HTML": 1},
+  "knowledge": "system DB Design"
+ },
+ {
+  "JobID": "JOB_028",
+  "JobTitle": "Junior iOS Developer",
+  "technologySkill": "Android, Android Studio, Xcode",
+  "Weight_Technology": {"Android": 1, "Android Studio": 1, "Xcode": 1},
+  "knowledge": "Mobile Software Engineering Practices. Pre-Defined Test Cases In An Efficient And Timely Manner"
+ },
+ {
+  "JobID": "JOB_029",
+  "JobTitle": "Lead Data Analyst",
+  "technologySkill": "Apache Airflow, Databricks, ETL, GitHub, Pycharm, Redshift, Amazon S3, Data Lake",
+  "Weight_Technology": {"Apache Airflow": 1, "Databricks": 1, "ETL": 1, "GitHub": 1, "Pycharm": 1, "Redshift": 1, "Amazon S3": 1, "Data Lake": 1},
+  "knowledge": ""
+ },
+ {
+  "JobID": "JOB_030",
+  "JobTitle": "Lead Data Scientist",
+  "technologySkill": "Python, R, Apache Spark, Apache Hadoop, NoSQL, SQL, XML",
+  "Weight_Technology": {"Python": 1, "R": 1, "Apache Spark": 1, "Apache Hadoop": 1, "NoSQL": 1, "SQL": 1, "XML": 1},
+  "knowledge": "Machine Learning"
+ },
+ {
+  "JobID": "JOB_031",
+  "JobTitle": "Lead Java Developer",
+  "technologySkill": "AWS RDS, Microsoft Architecture, RESTful API, Spring Boot",
+  "Weight_Technology": {"AWS RDS": 1, "Microsoft Architecture": 1, "RESTful API": 1, "Spring Boot": 1},
+  "knowledge": ""
+ },
+ {
+  "JobID": "JOB_032",
+  "JobTitle": "Lead Software Engineer",
+  "technologySkill": "C++, Dart, Docker, GitOps, Go, JavaScript, Kubernetes, Python, RESTful API",
+  "Weight_Technology": {"C++": 1, "Dart": 1, "Docker": 1, "GitOps": 1, "Go": 1, "JavaScript": 1, "Kubernetes": 1, "Python": 1, "RESTful API": 1},
+  "knowledge": "Complex System Software Integration. Continuous Software Integration Practices"
+ },
+ {
+  "JobID": "JOB_033",
+  "JobTitle": "Lead Web Developer",
+  "technologySkill": "WordPress, SASS, PHP, JavaScript, HTML, HTML5, CSS3, CSS, Adobe Experience Manager (AEM)",
+  "Weight_Technology": {"WordPress": 1, "SASS": 1, "PHP": 1, "JavaScript": 1, "HTML": 1, "HTML5": 1, "CSS3": 1, "CSS": 1, "Adobe Experience Manager (AEM)": 1},
+  "knowledge": "Adobe AEM, HTML, Wordpress. Digital Design Principles, Mobile And Responsive Design, And Web Development Best Practices. HTML, CSS, And JavaScript. Information Architecture, Interaction Design, And User-Centered Design Best Practices"
+ },
+ {
+  "JobID": "JOB_034",
+  "JobTitle": "Manual Tester",
+  "technologySkill": "Java, Objective C, QTP, Swift, Travis CI, XCTest, Xcode, iOS, Web Services",
+  "Weight_Technology": {"Java": 1, "Objective C": 1, "QTP": 1, "Swift": 1, "Travis CI": 1, "XCTest": 1, "Xcode": 1, "iOS": 1, "Web Services": 1},
+  "knowledge": "Java Programming. QA Software Tools, SQL. Swift, QTP, Test Management Software, User Acceptance Testing, iOS Testing Frameworks APIs, Web Services In A Testing Context. All Phases Of A Test Cycle, Including But Not Limited To Functional, Regression, Integration, Performance, Acceptance, Load, Black Box, White Box, And Automation Testing"
+ },
+ {
+  "JobID": "JOB_035",
+  "JobTitle": "Mobile Developer",
+  "technologySkill": "Google Cloud, .NET, C#, DotNet, Pocket PC, Windows, SOA, SmartPhone, Microsoft Visual Studio, Windows Mobile Applications, XML, Android, Java, iOS, Objective C, Swift, JSON, REST, Xcode, Android Studio, Espresso, Gherkin, IoT, Kotlin, JavaScript, React Native, Redux, SAGA, TypeScript, APIs, Apple’s Human Interface Guidelines, Cocoa Touch, Core Animation, Core Foundation, Dagger2, Firebase Cloud Messaging (FCM), HTTP, Json, MVC, MVP, MVVM, OkHttp, Realm, Retrofit, RxAndroid, RxJava, UIKit, UI, UX",
+  "Weight_Technology": {"iOS": 8, "Android": 7, "Swift": 5, "XML": 2, "Java": 2, "Objective C": 2, "Xcode": 2, "Kotlin": 2, "JavaScript": 2, "Google Cloud": 1, ".NET": 1, "C#": 1, "DotNet": 1, "Pocket PC": 1, "Windows": 1, "SOA": 1, "SmartPhone": 1, "Microsoft Visual Studio": 1, "Windows Mobile Applications": 1, "JSON": 1, "REST": 1, "Android Studio": 1, "Espresso": 1, "Gherkin": 1, "IoT": 1, "React Native": 1, "Redux": 1, "SAGA": 1, "TypeScript": 1, "APIs": 1, "Apple’s Human Interface Guidelines": 1, "Cocoa Touch": 1, "Core Animation": 1, "Core Foundation": 1, "Dagger2": 1, "Firebase Cloud Messaging (FCM)": 1, "HTTP": 1, "Json": 1, "MVC": 1, "MVP": 1, "MVVM": 1, "OkHttp": 1, "Realm": 1, "Retrofit": 1, "RxAndroid": 1, "RxJava": 1, "UIKit": 1, "UI": 1, "UX": 1},
+  "knowledge": "Any Cloud Platform. The Full Mobile Development Life Cycle C#, . Net, Windows Mobile. Object Oriented Programming And CF 1.0, 2.0 Visual Studio 2008 And Visual Studio 2010 To Develop And Debug Applications For Use On Smart Devices. Push Notification, SOA, XML Common Design Patterns, Frameworks And Libraries For Mobile Development (iOS And Android). Full App Life-Cycle (Concept, Design, Build, Deploy, Test And Release To App Store). Multi-Threaded And Memory Management Specific To Mobile Application. Swift, Objective-C (iOS) And Java (Android) Programming Languages  iOS And Android  Behavior Driven Testing Based On Gherkin Terminology. Complex Technical Systems. Platform Specific IDE’s (Apple Xcode, Android Studio). Platform Specific Languages (Swift, Kotlin). Platform Specific UI Test Automation Frameworks (Espresso, EarlGrey). Similar Level Of Test Pure Javascript And TypeScript. State Management Libraries Like Redux, Saga Apple’s Human Interface Guidelines As Well As Interaction Design Best Practices. Computer Science Combined. Ins And Outs Of Apple’s Submission Process. Object-Oriented Programing. Resource Constraints Including Battery Life, Network Availability, And The Like"
+ },
+ {
+  "JobID": "JOB_036",
+  "JobTitle": "Network Engineer",
+  "technologySkill": "Avaya, Cisco, Dell, Extreme Networks, HP, Microsoft, NEC, Network, Server System, VMWare",
+  "Weight_Technology": {"Avaya": 1, "Cisco": 1, "Dell": 1, "Extreme Networks": 1, "HP": 1, "Microsoft": 1, "NEC": 1, "Network": 1, "Server System": 1, "VMWare": 1},
+  "knowledge": "The Delivery Of Networking Solutions. The Delivery Of Wireless Networking Solutions Networking, Servers, Network System"
+ },
+ {
+  "JobID": "JOB_037",
+  "JobTitle": "PHP Developer",
+  "technologySkill": "CSS3, CodeIgniter, HTML5, JQuery, JavaScript, Laravel, MVC, MySQL, NoSQL, PHP, SQL, CSS, HTML, CMS WordPress",
+  "Weight_Technology": {"CodeIgniter": 2, "JQuery": 2, "JavaScript": 2, "PHP": 2, "CSS3": 1, "HTML5": 1, "Laravel": 1, "MVC": 1, "MySQL": 1, "NoSQL": 1, "SQL": 1, "CSS": 1, "HTML": 1, "CMS WordPress": 1},
+  "knowledge": "Accessibility And Security Compliance. Code Versioning Tools, Such As Git. Front- End Technologies, Such As JavaScript, Jquery, HTML5, And CSS3. Fundamental Design Principles Behind A Scalable Application. MVC Design Patterns. Mysql. Object Oriented PHP Programming. PHP 7 Frameworks Codeignator/ Laravel. The Common PHP Or Web Server Exploits And Their Solutions. The Fully Synchronous Behavior Of PHP Building Word Press CMS Websites, Plugins, Theme Development Customization. PHP Back- End Development. PHP, WordPress, Codeigniter, JavaScript, JQuery, HTML, CSS"
+ },
+ {
+  "JobID": "JOB_038",
+  "JobTitle": "Project Manager",
+  "technologySkill": "Business Intelligence (BI), BigData, Microsoft BizTalk Server, Lync, Microsoft Office, NoSQL, SQL, SharePoint, Visual Studio Team System (VSTS), AWS, Microsoft Project, SmartSheet, Microsoft Excel, .NET, Java",
+  "Weight_Technology": {"SQL": 2, "Business Intelligence (BI)": 1, "BigData": 1, "Microsoft BizTalk Server": 1, "Lync": 1, "Microsoft Office": 1, "NoSQL": 1, "SharePoint": 1, "Visual Studio Team System (VSTS)": 1, "AWS": 1, "Microsoft Project": 1, "SmartSheet": 1, "Microsoft Excel": 1, ".NET": 1, "Java": 1},
+  "knowledge": "Application Life Cycle Management BI Tool. Database Technologies And Concepts Including Relational And NoSQL Databases, Big Data, And Data Warehouses. Microsoft Server Platforms Or Frameworks, Specifically SharePoint Server( 2010-2016) And SharePoint Online, Business( Lync), Exchange, BizTalk, SQL BI. The Fundamentals Of Iterative And Incremental Development. Process And Operations Management Business And Technical Requirements Analysis, Documentation, Modeling And Testing Methodologies & Development. Cross Functional Project Management Business And Technical Objectives Of A Project And Works Closely With Project Sponsor. The State Of Michigan Suite Methodology Is Highly Desirable SQL, With A Strong Aptitude To Learn New Data Systems That Will Help You Perform Heavier Analysis Software Development And Web Application Technologies Such As Java, .NET And Database Management Systems. That Quality Is The Most Important Thing"
+ },
+ {
+  "JobID": "JOB_039",
+  "JobTitle": "QA Manager",
+  "technologySkill": "Java, JavaScript, PERL, Python, RUBY",
+  "Weight_Technology": {"Java": 1, "JavaScript": 1, "PERL": 1, "Python": 1, "RUBY": 1},
+  "knowledge": "SQA Best Practices And Be An Advocate For QA Process IT Systems To Enable Collaboration With Infrastructure Operations And Application Development And Maintenance Team Members On Root Cause Analysis Of Quality Issues For All Systems. SLA Best Practices To Provide Oversight For Developing And Verifying SLAs"
+ },
+ {
+  "JobID": "JOB_040",
+  "JobTitle": "QA Tester",
+  "technologySkill": "SQL, Zephyr, QTest, , C#, Jira, Unity (game engine), Angular, Confluence, HTML, JIRA, GIT, Java, JavaScript, Jenkins, Amazon Web Services (AWS), Linux, Unix, Bugzilla, HP Quality Center (HP QC), Mantis, QTP, Redmine, SVN, Selenium, TFS, TestRail, TestLink, UFT, Selenium WebDriver",
+  "Weight_Technology": {"Jira": 3, "SQL": 2, "": 2, "Jenkins": 2, "Selenium": 2, "TFS": 2, "TestLink": 2, "Zephyr": 1, "QTest": 1, "C#": 1, "Unity (game engine)": 1, "Angular": 1, "Confluence": 1, "HTML": 1, "JIRA": 1, "GIT": 1, "Java": 1, "JavaScript": 1, "Amazon Web Services (AWS)": 1, "Linux": 1, "Unix": 1, "Bugzilla": 1, "HP Quality Center (HP QC)": 1, "Mantis": 1, "QTP": 1, "Redmine": 1, "SVN": 1, "TestRail": 1, "UFT": 1, "Selenium WebDriver": 1},
+  "knowledge": "Test Management Software( E.G. qTest, Zephyr) And SQL Game Design, How Games Are Created, And How The Different Elements Of A Game Contribute To The Playing Experience. Some Programming  Automated Test Languages I.E. Java. The Software Development Lifecycle, Including Agile Methodologies  Automation Framework, Manual Testing, White Box Testing Requirements Of The Module Or Project As Whole To Be Undertaken For Testing Integrations With Various Systems Like Jenkins, Jira, Test Link, Etc QA Concept And Certificate In Quality Assurance. TFS Repository. Tools, Methods, And Concepts Of Quality Assurance"
+ },
+ {
+  "JobID": "JOB_041",
+  "JobTitle": "QC Engineer",
+  "technologySkill": "Appium, Automated Testing, C#, Selenium, Waterfall",
+  "Weight_Technology": {"Appium": 1, "Automated Testing": 1, "C#": 1, "Selenium": 1, "Waterfall": 1},
+  "knowledge": "Automated Testing Tool (S). C# Languages. Databases. Methodologies (Waterfall, Agile). QA Methodologies And Concepts. Selenium, Appium"
+ },
+ {
+  "JobID": "JOB_042",
+  "JobTitle": "R&D Engineer",
+  "technologySkill": "C++, Java, JavaScript, Linux, Python, React",
+  "Weight_Technology": {"C++": 1, "Java": 1, "JavaScript": 1, "Linux": 1, "Python": 1, "React": 1},
+  "knowledge": ""
+ },
+ {
+  "JobID": "JOB_043",
+  "JobTitle": "React Developer",
+  "technologySkill": "JavaScript, REST, ReactJS, Chrome DevTools, Firebug, JavaScript Debugger Scripting",
+  "Weight_Technology": {"JavaScript": 1, "REST": 1, "ReactJS": 1, "Chrome DevTools": 1, "Firebug": 1, "JavaScript Debugger Scripting": 1},
+  "knowledge": "Git Version Control System. JavaScript (Es5/Es6). OOP & Prototypal Inheritance. REST"
+ },
+ {
+  "JobID": "JOB_044",
+  "JobTitle": "SEO Executive",
+  "technologySkill": "Ahrefs, Google Analytics, SEMRush, SEO, Screaming Frog, Social Media Marketing, WordPress",
+  "Weight_Technology": {"Ahrefs": 1, "Google Analytics": 1, "SEMRush": 1, "SEO": 1, "Screaming Frog": 1, "Social Media Marketing": 1, "WordPress": 1},
+  "knowledge": "Content Writing And Social Media Marketing, WordPress"
+ },
+ {
+  "JobID": "JOB_045",
+  "JobTitle": "Security Engineer",
+  "technologySkill": "Arcsight, CentOS, DNS, Linux, Logrhythm, iOS, Objective C, Snort, TCP/IP, Windows, Wireshark, TCPDUMP",
+  "Weight_Technology": {"Arcsight": 1, "CentOS": 1, "DNS": 1, "Linux": 1, "Logrhythm": 1, "iOS": 1, "Objective C": 1, "Snort": 1, "TCP/IP": 1, "Windows": 1, "Wireshark": 1, "TCPDUMP": 1},
+  "knowledge": "Current Threat Landscape (Threat Actors, APT, Cyber-Crime, Etc.). Determining Placement Of Network Security Test Access Points (TAPs) Or Switch Port Analyzers (SPANs) On Enterprise Networks. Networking Fundamentals (TCP/IP, Network Layers, DNS, Etc.). NextGen SIEMs (Arcsight, Logrhythm, Etc.). Security Of ICS-SCADA Networks. Security Technologies Such As Vulnerability Management, Intrusion Detection/Prevention, Log Monitoring, And Endpoint Protection Approaches, Tools And Techniques For Anticipating, Recognizing, And Resolving Technical (Hardware, Software, Application Or Operational) Problems. Processes, Tools, Techniques And Practices For Assuring Adherence To Standards Associated With Accessing, Altering And Protecting Organizational Data. Risk Management And Corporate Compliance And Privacy Programs Related To Hospitals And/Or Healthcare System. Technologies And Technology-Based Solutions Dealing With Information Security Issues"
+ },
+ {
+  "JobID": "JOB_046",
+  "JobTitle": "Senior .NET Developer",
+  "technologySkill": "Azure Cosmos DB, SQL, Azure Service Bus, T-SQL, Amazon Web Services (AWS), Azure, CSS, Git, HTML, JavaScript, MySQL, RDBMS, Microsoft SQL Server, Ubuntu",
+  "Weight_Technology": {"Azure Cosmos DB": 1, "SQL": 1, "Azure Service Bus": 1, "T-SQL": 1, "Amazon Web Services (AWS)": 1, "Azure": 1, "CSS": 1, "Git": 1, "HTML": 1, "JavaScript": 1, "MySQL": 1, "RDBMS": 1, "Microsoft SQL Server": 1, "Ubuntu": 1},
+  "knowledge": "Agile Methodologies (Scrum). Modern HTML And CSS Multithreaded And Concurrent Programming Techniques"
+ },
+ {
+  "JobID": "JOB_047",
+  "JobTitle": "Senior Android Developer",
+  "technologySkill": "Android, Android SDK, Android Studio, Git, Json, Java, SOAP, XML, Web",
+  "Weight_Technology": {"Android": 1, "Android SDK": 1, "Android Studio": 1, "Git": 1, "Json": 1, "Java": 1, "SOAP": 1, "XML": 1, "Web": 1},
+  "knowledge": "Android SDK And Java. Full-Stack Development And Cross-Platform Development (Android, Web)"
+ },
+ {
+  "JobID": "JOB_048",
+  "JobTitle": "Senior AngularJS Developer",
+  "technologySkill": "Angular, JavaScript, ExpressJS, JQuery, NodeJS, OWASP, TypeScript",
+  "Weight_Technology": {"JavaScript": 2, "Angular": 1, "ExpressJS": 1, "JQuery": 1, "NodeJS": 1, "OWASP": 1, "TypeScript": 1},
+  "knowledge": "Typescript, JavaScript, JQuery, ECMA Script ES6/7. Web Security Standards (OWASP Top 10) And Web Accessibility (W3C)"
+ },
+ {
+  "JobID": "JOB_049",
+  "JobTitle": "Senior Automation Tester",
+  "technologySkill": "APIs, Cucumber, Jmeter, LoadRunner, REST, Selenium",
+  "Weight_Technology": {"APIs": 1, "Cucumber": 1, "Jmeter": 1, "LoadRunner": 1, "REST": 1, "Selenium": 1},
+  "knowledge": "Cucumber, Build Verification Testing. Different Test Stages (Component Testing, Acceptance Testing) & Test Activities (Planning, Specification, Execution).Testing Standards. Testing Web Sockets. Web Technologies And Experience Testing Web APIs/REST Services"
+ },
+ {
+  "JobID": "JOB_050",
+  "JobTitle": "Senior Backend Developer",
+  "technologySkill": "J2EE, JavaServer Faces (JSF), Java, MongoDB, MySQL, RESTful API, SQL, STUN, Spring, Apache Struts, Hibernate, WebRTC",
+  "Weight_Technology": {"J2EE": 1, "JavaServer Faces (JSF)": 1, "Java": 1, "MongoDB": 1, "MySQL": 1, "RESTful API": 1, "SQL": 1, "STUN": 1, "Spring": 1, "Apache Struts": 1, "Hibernate": 1, "WebRTC": 1},
+  "knowledge": "Frameworks Such As Spring, JSF, Struts, Hibernate Etc. The Agile Development Methodology And Work In A Very Dynamic Work Environment. The Company Direction And Provide Progress Reports On The Development Tasks. Using WebSphere, WebLogic And JBoss Servers"
+ },
+ {
+  "JobID": "JOB_051",
+  "JobTitle": "Senior Business Analyst",
+  "technologySkill": "UML",
+  "Weight_Technology": {"UML": 1},
+  "knowledge": ""
+ },
+ {
+  "JobID": "JOB_052",
+  "JobTitle": "Senior C# Developer",
+  "technologySkill": "C#",
+  "Weight_Technology": {"C#": 1},
+  "knowledge": "C#"
+ },
+ {
+  "JobID": "JOB_053",
+  "JobTitle": "Senior Data Analyst",
+  "technologySkill": "Business Objects, SQL, Tableau, Azure, Microsoft Excel, Git, MicroStrategy, Microsoft Power BI, Microsoft SQL Server, Snowflake, Alteryx, Databricks, Fieldglass, Macro Microsoft Excel, Pivot Table Excel, SAP BW, ServiceNow, TIBCO Spotfire, VBA, Microsoft Access, Eagle, EagleStar, IBOR, Microsoft Project, Microsoft Word, Pluggable Authentication Module (PAM), Microsoft PowerPoint, SharePoint, Microsoft Visio",
+  "Weight_Technology": {"Tableau": 3, "SQL": 2, "Microsoft Excel": 2, "Business Objects": 1, "Azure": 1, "Git": 1, "MicroStrategy": 1, "Microsoft Power BI": 1, "Microsoft SQL Server": 1, "Snowflake": 1, "Alteryx": 1, "Databricks": 1, "Fieldglass": 1, "Macro Microsoft Excel": 1, "Pivot Table Excel": 1, "SAP BW": 1, "ServiceNow": 1, "TIBCO Spotfire": 1, "VBA": 1, "Microsoft Access": 1, "Eagle": 1, "EagleStar": 1, "IBOR": 1, "Microsoft Project": 1, "Microsoft Word": 1, "Pluggable Authentication Module (PAM)": 1, "Microsoft PowerPoint": 1, "SharePoint": 1, "Microsoft Visio": 1},
+  "knowledge": "Dimensional Database Modeling Microsoft Excel Capital Markets – Middle & Back Office, Platforms Like IBOR/ABOR, Eagle, Eagle Star, PAM, Portia, Securities, Loans, IBOR/ABOR, Transaction Management"
+ },
+ {
+  "JobID": "JOB_054",
+  "JobTitle": "Senior Data Engineer",
+  "technologySkill": "Amazon Web Services (AWS), Java, Microsoft Oracle, PHP, PL SQL, Python, RESTful API, SOAP, SQL, Microsoft SQL Server, SAAS, C#, Electronic Health Record (EHR), Amazon EMR, Fast Healthcare Interoperability (FHIR), Go, Health Level 7 (HL7), Amazon Kinesis, Amazon Lambda, Microsoft Power BI, Qlikview, Amazon QuickSights, Amazon RDS, RUBY, Redshift, Reporting Tools, Amazon S3, Scala, Tableau, Azure, Azure Data Factory, Azure SQL Database, Azure Synapse Analytics, CI/CD, ETL, PostgreSQL, SQL Data Warehouse, SSAS, SSIS, SSRS, T-SQL, Talend, Data Lake, Microsoft Excel, Git, Couchbase, Elastic Search, Google Cloud Platform (GCP), Microsoft Azure, Neo4J, NoSQL, OWL, RDF, Apache Solr, TIBCO Spotfire",
+  "Weight_Technology": {"SQL": 6, "Python": 5, "Amazon Web Services (AWS)": 3, "Java": 3, "Microsoft Power BI": 3, "Tableau": 3, "PL SQL": 2, "Scala": 2, "Azure SQL Database": 2, "CI/CD": 2, "Git": 2, "Microsoft Oracle": 1, "PHP": 1, "RESTful API": 1, "SOAP": 1, "Microsoft SQL Server": 1, "SAAS": 1, "C#": 1, "Electronic Health Record (EHR)": 1, "Amazon EMR": 1, "Fast Healthcare Interoperability (FHIR)": 1, "Go": 1, "Health Level 7 (HL7)": 1, "Amazon Kinesis": 1, "Amazon Lambda": 1, "Qlikview": 1, "Amazon QuickSights": 1, "Amazon RDS": 1, "RUBY": 1, "Redshift": 1, "Reporting Tools": 1, "Amazon S3": 1, "Azure": 1, "Azure Data Factory": 1, "Azure Synapse Analytics": 1, "ETL": 1, "PostgreSQL": 1, "SQL Data Warehouse": 1, "SSAS": 1, "SSIS": 1, "SSRS": 1, "T-SQL": 1, "Talend": 1, "Data Lake": 1, "Microsoft Excel": 1, "Couchbase": 1, "Elastic Search": 1, "Google Cloud Platform (GCP)": 1, "Microsoft Azure": 1, "Neo4J": 1, "NoSQL": 1, "OWL": 1, "RDF": 1, "Apache Solr": 1, "TIBCO Spotfire": 1},
+  "knowledge": "Database Design, SQL, Data Warehouses And Metadata Management. Software Development Teams, Industry Best Practices, Regulations & Compliance, And Quality Assurance Techniques SQL Both Traditional And Modern Data Architecture And Processing Concepts, Including Relational Databases Distributed Data Processing And Related Frameworks. Good Practices In Software Engineering, Like Pair Programming, Testing, Clean Code And Thrive In An Agile Environment. SQL Agile And DevOps, Including CI/CD Technologies And Practices. Data Modeling, Data Architecture And Data Structures. Data Processing Performance Concerns And Issues (Configuring Database Server/Data Schema For Performance, Optimizing SQL). DevOps Practices Including Continuous Deployment, Continuous Integration, Test-Driven Development And Automated Testing. The Investment Management Industry Basic Electrical Engineering Concepts, Git, Java And Python, Machine Learning, Algorithms, And Computational Complexity, Open API/Source (Google Cloud Platform, Microsoft Azure, Etc), SQL And Non SQL Database Methodologies"
+ },
+ {
+  "JobID": "JOB_055",
+  "JobTitle": "Senior Data Scientist",
+  "technologySkill": "Git, Python, R, SQL",
+  "Weight_Technology": {"Git": 1, "Python": 1, "R": 1, "SQL": 1},
+  "knowledge": "Business Problems And Bridge The Gap Between Data Analysis Results And Meaningful Business Insights. The Investment Management Industry"
+ },
+ {
+  "JobID": "JOB_056",
+  "JobTitle": "Senior Database Administrator (DBA)",
+  "technologySkill": "Microsoft SQL Server, MariaDB, PostgreSQL, Microsoft Oracle, Snowflake",
+  "Weight_Technology": {"Microsoft SQL Server": 2, "MariaDB": 1, "PostgreSQL": 1, "Microsoft Oracle": 1, "Snowflake": 1},
+  "knowledge": "High Availability (HA) And Disaster Recovery (DR) Options For SQL Server"
+ },
+ {
+  "JobID": "JOB_057",
+  "JobTitle": "Senior DevOps Engineer",
+  "technologySkill": "Amazon Web Services (AWS), Ansible, Chef, Docker, Jenkins, Linux, Microsoft, Puppet, TCP/IP, Windows, Windows PowerShell",
+  "Weight_Technology": {"Amazon Web Services (AWS)": 1, "Ansible": 1, "Chef": 1, "Docker": 1, "Jenkins": 1, "Linux": 1, "Microsoft": 1, "Puppet": 1, "TCP/IP": 1, "Windows": 1, "Windows PowerShell": 1},
+  "knowledge": "A Microsoft Windows. Continuous Integration And Delivery Concepts. Linux. Physical Computing Environments Including, Physical Servers, SAN Technology, And Networking Devices. TCP/IP Networking And Associated Services"
+ },
+ {
+  "JobID": "JOB_058",
+  "JobTitle": "Senior Frontend Developer",
+  "technologySkill": "CMS WordPress, CSS3, DNN, FTP, Git, HTML5, HTTP, Json, JavaScript, MVC, Adobe Photoshop, REST, SOAP, Microsoft Visual Studio, WCF, AJAX, CSS, HTML, JQuery, Bootstrap, C++, Laravel, Microsoft SQL Server, MongoDB, MySQL, Microsoft Oracle, VueJS, ReactJS, Task Runners, GruntJS, GulpJS",
+  "Weight_Technology": {"CSS3": 3, "Json": 3, "JavaScript": 3, "Git": 2, "HTML5": 2, "CSS": 2, "HTML": 2, "JQuery": 2, "Bootstrap": 2, "CMS WordPress": 1, "DNN": 1, "FTP": 1, "HTTP": 1, "MVC": 1, "Adobe Photoshop": 1, "REST": 1, "SOAP": 1, "Microsoft Visual Studio": 1, "WCF": 1, "AJAX": 1, "C++": 1, "Laravel": 1, "Microsoft SQL Server": 1, "MongoDB": 1, "MySQL": 1, "Microsoft Oracle": 1, "VueJS": 1, "ReactJS": 1, "Task Runners": 1, "GruntJS": 1, "GulpJS": 1},
+  "knowledge": "DNN CMS (Dot Net Nuke). Visual Studio And Photoshop. Web-Related Protocols Such As HTTP, SSL, And FTP Javascript/HTML/CSS (Ajax, JSON, jQuery) OOP And Design Pattern. Scrum Working Framework"
+ },
+ {
+  "JobID": "JOB_059",
+  "JobTitle": "Senior Fullstack Developer",
+  "technologySkill": "Amazon Web Services (AWS), Agile, CI/CD, DevOps, ExpressJS, JavaScript, NestJS, NoSQL, NodeJS, REST, ReactJS, TypeScript, Angular, CSS, Git, HTML, MySQL, Ruby on Rails, SQL, Apache Subversion, AWS Cloud, GraphQL, NuxtJS, VueJS, CMS, CSS3, Commerce Services Provider (CSP), Confluence, Docker, HTML5, Json, Java, Jenkins, Jira, Junit, Kubernetes, MSA, NGINX, NextJS, Microsoft Oracle, Postman, RESTful API, React, Redux, SonarQube, Tensorflow, Webpack",
+  "Weight_Technology": {"JavaScript": 4, "Git": 3, "Amazon Web Services (AWS)": 2, "NestJS": 2, "NodeJS": 2, "ReactJS": 2, "TypeScript": 2, "CSS": 2, "HTML": 2, "MySQL": 2, "VueJS": 2, "Agile": 1, "CI/CD": 1, "DevOps": 1, "ExpressJS": 1, "NoSQL": 1, "REST": 1, "Angular": 1, "Ruby on Rails": 1, "SQL": 1, "Apache Subversion": 1, "AWS Cloud": 1, "GraphQL": 1, "NuxtJS": 1, "CMS": 1, "CSS3": 1, "Commerce Services Provider (CSP)": 1, "Confluence": 1, "Docker": 1, "HTML5": 1, "Json": 1, "Java": 1, "Jenkins": 1, "Jira": 1, "Junit": 1, "Kubernetes": 1, "MSA": 1, "NGINX": 1, "NextJS": 1, "Microsoft Oracle": 1, "Postman": 1, "RESTful API": 1, "React": 1, "Redux": 1, "SonarQube": 1, "Tensorflow": 1, "Webpack": 1},
+  "knowledge": "DevOps And Software Products Lifecycle. JavaScript, Services, Microservices, REST CSS, HTML. Database And SQL, Particularly MySQL. Products, Diagnose And Fix Problems Engineering Best Practices. Relational Database Systems, Object Oriented. SOLID DDD CQRS Patterns AWS, Jenkins, Docker, Kubernetes, SonarQube, Git, NGINX. Cutting-Edge Technology. JavaScript, HTML, CSS, JSON. MSA (Micro Service Arch). NoSQL (MongoDB, DynamoDB). Server Side Rendering. Server-Side Java Development (Ideally Java 11). Test Processes: In-Code & Full Application (Postman). Webpack, Redux, GraphQL. Write Code For Responsive Design"
+ },
+ {
+  "JobID": "JOB_060",
+  "JobTitle": "Senior IT Engineer",
+  "technologySkill": "Cisco, iOS, DNS, DoD IAVA, Junos OS, NetScout, OSCP, QoS, STIGs, SolarWinds, Wireshark, Firewall",
+  "Weight_Technology": {"Cisco": 1, "iOS": 1, "DNS": 1, "DoD IAVA": 1, "Junos OS": 1, "NetScout": 1, "OSCP": 1, "QoS": 1, "STIGs": 1, "SolarWinds": 1, "Wireshark": 1, "Firewall": 1},
+  "knowledge": ""
+ },
+ {
+  "JobID": "JOB_061",
+  "JobTitle": "Senior Java Developer",
+  "technologySkill": "Amazon Web Services (AWS), Docker, Google Cloud, Java, Apache Kafka, Kubernetes, Apache Mesos, PaaS, RESTful API, RabbitMQ, SOA, SOAP",
+  "Weight_Technology": {"Amazon Web Services (AWS)": 1, "Docker": 1, "Google Cloud": 1, "Java": 1, "Apache Kafka": 1, "Kubernetes": 1, "Apache Mesos": 1, "PaaS": 1, "RESTful API": 1, "RabbitMQ": 1, "SOA": 1, "SOAP": 1},
+  "knowledge": "Asynchronous Messaging Middleware (Rabbitmq, Kafka…). Cloud-Native Architectures, And Be Familiar With Implementations Involving Service Discovery, Circuit Breakers, Client Side Load Balancing, And Other Architectural Patterns Related To Elastic Infrastructure. Container Orchestration Technologies Such As Mesos And Kubernetes. Containers And Their Technologies Such As Docker. Distributed Architectures, SOA, Microservices And Platform-as-a Service (PaaS). OOP Core Concept And Core Design Patterns"
+ },
+ {
+  "JobID": "JOB_062",
+  "JobTitle": "Senior Manager Data Strategy & Governance",
+  "technologySkill": "Marketing Analytics, Medical Affairs, Product Development, Sales Operations",
+  "Weight_Technology": {"Marketing Analytics": 1, "Medical Affairs": 1, "Product Development": 1, "Sales Operations": 1},
+  "knowledge": "Pharmaceutical Data (Specialty Pharmacy, Wholesaler Data, Symphony And IQVIA Offerings, Etc.) And Systems (CRM, Customer Master, Data Warehouse, Sample Systems, Etc.). Relevant Software Systems (E.G. MS Excel, Access, MS Word & PowerPoint, Etc.). SQL, And/Or Other BI Tools (MicroStrategy, Tableau, Etc.). The Pharmaceutical Business Model (Product Development, Marketing, Sales, Sales Operations, Marketing Analytics, Medical Affairs, Contracting Etc)"
+ },
+ {
+  "JobID": "JOB_063",
+  "JobTitle": "Senior Manual Tester",
+  "technologySkill": "Magento, Microsoft Oracle, SFCC, Software Testing Life Cycle (STLC), Shopify",
+  "Weight_Technology": {"Magento": 1, "Microsoft Oracle": 1, "SFCC": 1, "Software Testing Life Cycle (STLC)": 1, "Shopify": 1},
+  "knowledge": "Technology And Tools Required In E-commerce For Example - PostMan, Putty, WinSCP, Add-ons/Extensions, Abstract, Applitoolsetc"
+ },
+ {
+  "JobID": "JOB_064",
+  "JobTitle": "Senior Mobile Developer",
+  "technologySkill": "Android, C#, Unity, iOS",
+  "Weight_Technology": {"Android": 1, "C#": 1, "Unity": 1, "iOS": 1},
+  "knowledge": "How To Use Graphics, Physics, Scene, Animation, Effect, …"
+ },
+ {
+  "JobID": "JOB_065",
+  "JobTitle": "Senior Python Developer",
+  "technologySkill": "Amazon Web Services (AWS), AWS CloudFormation, Amazon Elastic Computing (EC2), Json, Python, Amazon RDS, REDIS, RESTful API, SOAP, SQLAlchemy, SAAS, Amazon Virtual Private Cloud (VPC)",
+  "Weight_Technology": {"Amazon Web Services (AWS)": 1, "AWS CloudFormation": 1, "Amazon Elastic Computing (EC2)": 1, "Json": 1, "Python": 1, "Amazon RDS": 1, "REDIS": 1, "RESTful API": 1, "SOAP": 1, "SQLAlchemy": 1, "SAAS": 1, "Amazon Virtual Private Cloud (VPC)": 1},
+  "knowledge": "AWS And Its Various Services: EC2, RDS, VPC, Cloud Formation"
+ },
+ {
+  "JobID": "JOB_066",
+  "JobTitle": "Senior QC Engineer",
+  "technologySkill": "Jira, SQL, TestRail",
+  "Weight_Technology": {"Jira": 1, "SQL": 1, "TestRail": 1},
+  "knowledge": "REST And Demonstrated Experience With Web Services APIs Testing Automation. Test Management Software (Eg Testrail, Jira)"
+ },
+ {
+  "JobID": "JOB_067",
+  "JobTitle": "Senior Scrum Master",
+  "technologySkill": "Confluence, FDA, HIPAA, Jira, Microsoft Office Suite",
+  "Weight_Technology": {"Confluence": 1, "FDA": 1, "HIPAA": 1, "Jira": 1, "Microsoft Office Suite": 1},
+  "knowledge": "Agile Development Processes. Healthcare Industry, HIPAA And FDA Guidelines. Iterative Software Development, Backlog Refinement, User Story Writing, Burn Down/Burn Up Metrics, Velocity, And Task Definition. JIRA And Confluence"
+ },
+ {
+  "JobID": "JOB_068",
+  "JobTitle": "Senior Software Developer",
+  "technologySkill": "CSS, DJANGO, GitHub, HTML, Python",
+  "Weight_Technology": {"CSS": 1, "DJANGO": 1, "GitHub": 1, "HTML": 1, "Python": 1},
+  "knowledge": ""
+ },
+ {
+  "JobID": "JOB_069",
+  "JobTitle": "Senior Software Engineer",
+  "technologySkill": "Bamboo, C, C#, C++, GitLab, Jenkins, Kanban, Linux, Python, Windows",
+  "Weight_Technology": {"Bamboo": 1, "C": 1, "C#": 1, "C++": 1, "GitLab": 1, "Jenkins": 1, "Kanban": 1, "Linux": 1, "Python": 1, "Windows": 1},
+  "knowledge": "The Linux And Windows Environment"
+ },
+ {
+  "JobID": "JOB_070",
+  "JobTitle": "Senior Web Developer",
+  "technologySkill": "AJAX, Amazon Web Services (AWS), CSS, Capybara, Ember, HAML, HTML, JQuery, JSON, JavaScript, Jenkins, LESS, MySQL, RAILS, REST, RSPEC, RUBY, React, RuboCop, SASS, Selenium, Semaphore, Tmux, Vim, Calm, Bootstrap, Docker, Amazon Elastic Block Store (EBS), Eclipse, GitLab, J2EE, Notepad++, Microsoft Oracle, RAD, Software Development Life Cycle (SDLC), SQL, Apache Subversion, Apache Tomcat, Unix, Visual Studio Code (VSCode), VersionOne, IBM WebSphere, .NET, Android, C#, HTTP, LinQ, MVC, MVVM, SOAP, Task Parallel Library (TPL), Universal Windows Platform (UWP), WPF, iOS, AngularJS, CSS3, Apache Cordova, Couchbase, HTML5, IndexedDB API, Ionic Platform, Json, NodeJS, PhoneGap, Git, Object-Oriented Programming (OOP)",
+  "Weight_Technology": {"REST": 5, "JavaScript": 3, "CSS": 2, "HTML": 2, "JQuery": 2, "Jenkins": 2, "SQL": 2, ".NET": 2, "Android": 2, "C#": 2, "HTTP": 2, "LinQ": 2, "MVC": 2, "MVVM": 2, "SOAP": 2, "Task Parallel Library (TPL)": 2, "Universal Windows Platform (UWP)": 2, "WPF": 2, "iOS": 2, "AJAX": 1, "Amazon Web Services (AWS)": 1, "Capybara": 1, "Ember": 1, "HAML": 1, "JSON": 1, "LESS": 1, "MySQL": 1, "RAILS": 1, "RSPEC": 1, "RUBY": 1, "React": 1, "RuboCop": 1, "SASS": 1, "Selenium": 1, "Semaphore": 1, "Tmux": 1, "Vim": 1, "Calm": 1, "Bootstrap": 1, "Docker": 1, "Amazon Elastic Block Store (EBS)": 1, "Eclipse": 1, "GitLab": 1, "J2EE": 1, "Notepad++": 1, "Microsoft Oracle": 1, "RAD": 1, "Software Development Life Cycle (SDLC)": 1, "Apache Subversion": 1, "Apache Tomcat": 1, "Unix": 1, "Visual Studio Code (VSCode)": 1, "VersionOne": 1, "IBM WebSphere": 1, "AngularJS": 1, "CSS3": 1, "Apache Cordova": 1, "Couchbase": 1, "HTML5": 1, "IndexedDB API": 1, "Ionic Platform": 1, "Json": 1, "NodeJS": 1, "PhoneGap": 1, "Git": 1, "Object-Oriented Programming (OOP)": 1},
+  "knowledge": "Expert Level Rails Ecosystem. Key Security Concepts Including Encryption Agile Methodologies. SDLC Practices Any One Of The Native Mobile Application Development (Android/iOS/Universal Windows Platform). C# .NET Framework. OOPs Concepts. UI Design Principles (Android And iOS). WPF Concepts Like Resources, Markup Extensions, Dependency Properties, Databinding And Commands. Xamarin.Forms And Xamarin.Native Application Development Any One Of The Native Mobile Application Development (Android/iOS/Universal Windows Platform). C# .NET Framework. OOPs Concepts. UI Design Principles (Android And iOS). WPF Concepts Like Resources, Markup Extensions, Dependency Properties, Databinding And  Object-Oriented Programming (OOP)"
+ },
+ {
+  "JobID": "JOB_071",
+  "JobTitle": "Senior iOS Developer",
+  "technologySkill": "JSON, MVVM, Objective C, RESTful API, Swift, XML, Xcode, iOS, UI, CI/CD, MacOS, TvOS, WatchOS, Cocoa Touch, Apple’s Human Interface Guidelines, RxSwift, TCP/IP, UX",
+  "Weight_Technology": {"Swift": 5, "iOS": 4, "Objective C": 3, "JSON": 2, "RESTful API": 2, "MVVM": 1, "XML": 1, "Xcode": 1, "UI": 1, "CI/CD": 1, "MacOS": 1, "TvOS": 1, "WatchOS": 1, "Cocoa Touch": 1, "Apple’s Human Interface Guidelines": 1, "RxSwift": 1, "TCP/IP": 1, "UX": 1},
+  "knowledge": "JSON And XML  Reactive Programming And Used To Worked On Frameworks Or Open Sourced Components MVVM Architectural Pattern  Algorithms, Data Structures, Complexity, And Optimization. Apple HIG And A Passion To Build The Best UX. Dart/Flutter. Development Tools, Environments And Utilities. Mobile Application Architecture, Design Patterns. Objective-C/Swift. Python, Shell Script. Refactoring Techniques. TDD"
+ },
+ {
+  "JobID": "JOB_072",
+  "JobTitle": "Software Architect",
+  "technologySkill": "AngularJS, Bitbucket, Consumer Driven Contracts (CDC), Google Cloud, DevOps, GitHub, Go, Kubernetes, Docker, NodeJS, Pivotal Cloud Foundry (PCF), PERL, Pair, Python, RUBY, ReactJS, Spring Cloud, Bash, Spring Boot",
+  "Weight_Technology": {"AngularJS": 1, "Bitbucket": 1, "Consumer Driven Contracts (CDC)": 1, "Google Cloud": 1, "DevOps": 1, "GitHub": 1, "Go": 1, "Kubernetes": 1, "Docker": 1, "NodeJS": 1, "Pivotal Cloud Foundry (PCF)": 1, "PERL": 1, "Pair": 1, "Python": 1, "RUBY": 1, "ReactJS": 1, "Spring Cloud": 1, "Bash": 1, "Spring Boot": 1},
+  "knowledge": "Business Needs With The Ability To Establish/Maintain High Level Of Customer Trust And Confidence"
+ },
+ {
+  "JobID": "JOB_073",
+  "JobTitle": "Software Developer",
+  "technologySkill": "CSS, HTML, JQuery, Java, JavaScript, NodeJS, Microsoft Oracle, SQL, Spring, C#, C++, DOORS, Eclipse, Git, Jira, Redhat, VMWare, Microsoft Visual Studio",
+  "Weight_Technology": {"Java": 2, "CSS": 1, "HTML": 1, "JQuery": 1, "JavaScript": 1, "NodeJS": 1, "Microsoft Oracle": 1, "SQL": 1, "Spring": 1, "C#": 1, "C++": 1, "DOORS": 1, "Eclipse": 1, "Git": 1, "Jira": 1, "Redhat": 1, "VMWare": 1, "Microsoft Visual Studio": 1},
+  "knowledge": "Building API, Web Services, RESTful, And Elasticsearch. Oracle Database Architecture With Proficiency In SQL. Software Development Using Java And Spring. Using Python, Scala, Ruby On Rails"
+ },
+ {
+  "JobID": "JOB_074",
+  "JobTitle": "Software Development Manager",
+  "technologySkill": "AI, Apache, C, C++, Apache Hadoop, Java, Machine Learning, PERL, Python",
+  "Weight_Technology": {"AI": 1, "Apache": 1, "C": 1, "C++": 1, "Apache Hadoop": 1, "Java": 1, "Machine Learning": 1, "PERL": 1, "Python": 1},
+  "knowledge": "Standard AI, ML And NLU Fundamentals, Concepts And Techniques"
+ },
+ {
+  "JobID": "JOB_075",
+  "JobTitle": "Software Engineer",
+  "technologySkill": "C#, C++, CI/CD, Docker, Elastic Search, Helm, Kubernetes, MongoDB, MySQL, PostgreSQL, SQL, Delphi, HTML, Java, ReactJS, JavaScript, Bamboo, Chef, Git, JSON, Mercurial, NoSQL, Puppet, Python, XML, DJANGO, RAILS, REDIS, RSPEC, RUBY, SINATRA, C, DDS, Real-Time Operating Systems (RTOS), UML, JDBC, Microsoft Oracle, SOAP, Spring, Teradata, AJAX, REST, Android, AngularJS, Bootstrap, CMS WordPress, CSS, Drupal, HTML5, JQuery, Joomla, MVC, NodeJS, PHP, Angular, Appium, Apache Cordova, Core Data, FastLane, Firebase, GraphQL, JSON Web Tokens, Kotlin, Native Script, NotificationBanner, Oauth, PhoneGap, Push Notifications, RESTful API, SQLite, Sauce Labs, Swift, TestFairy, TestFlight, TypeScript, UIKit, VueJS, Component Object Model (COM)",
+  "Weight_Technology": {"C++": 5, "SQL": 4, "C#": 3, "JavaScript": 3, "CI/CD": 2, "Docker": 2, "Helm": 2, "Kubernetes": 2, "MySQL": 2, "Java": 2, "JSON": 2, "NoSQL": 2, "Python": 2, "XML": 2, "SOAP": 2, "Elastic Search": 1, "MongoDB": 1, "PostgreSQL": 1, "Delphi": 1, "HTML": 1, "ReactJS": 1, "Bamboo": 1, "Chef": 1, "Git": 1, "Mercurial": 1, "Puppet": 1, "DJANGO": 1, "RAILS": 1, "REDIS": 1, "RSPEC": 1, "RUBY": 1, "SINATRA": 1, "C": 1, "DDS": 1, "Real-Time Operating Systems (RTOS)": 1, "UML": 1, "JDBC": 1, "Microsoft Oracle": 1, "Spring": 1, "Teradata": 1, "AJAX": 1, "REST": 1, "Android": 1, "AngularJS": 1, "Bootstrap": 1, "CMS WordPress": 1, "CSS": 1, "Drupal": 1, "HTML5": 1, "JQuery": 1, "Joomla": 1, "MVC": 1, "NodeJS": 1, "PHP": 1, "Angular": 1, "Appium": 1, "Apache Cordova": 1, "Core Data": 1, "FastLane": 1, "Firebase": 1, "GraphQL": 1, "JSON Web Tokens": 1, "Kotlin": 1, "Native Script": 1, "NotificationBanner": 1, "Oauth": 1, "PhoneGap": 1, "Push Notifications": 1, "RESTful API": 1, "SQLite": 1, "Sauce Labs": 1, "Swift": 1, "TestFairy": 1, "TestFlight": 1, "TypeScript": 1, "UIKit": 1, "VueJS": 1, "Component Object Model (COM)": 1},
+  "knowledge": "One Or More Of The Following Areas: Industrial Controls, Threat Modeling, Process Automation, Agile Development Principles, Processes, And Tools  One Or More Of The Following Areas: Industrial Controls, Process Automation, Agile Development Principles, Processes, And Tools  DDS Middleware And Real Time Operating Systems. Modern Development Practices. Standards Such As DefStan 00-55 And Restricted Coding Standards Such As MISRA C  Oracle And JDBC Agile Methodology Android Mobile Application Development Is A Bonus. MVC Design Patterns Like Codeigniter Or Any Other MVC Framework. Object-Oriented PHP Programming. Technical Requirements Develop Innovative, Robust And Scalable Web Applications End To End Software Development Internship Will Be For 6 Months And On A Self Support Basis. Web Technologies And Frameworks Git And SCM Best Practices, Placing Apps In Stores Multi-Threading, Secure Protocols (SSLTLS) Relational Databases And SQL. Standard COM"
+ },
+ {
+  "JobID": "JOB_076",
+  "JobTitle": "System Administrator",
+  "technologySkill": "Akamai CLI, Ansible, Big Brother, Check_MK, Linux, MySQL, NetApp, PERL, PostgreSQL, Puppet, Python, Unix, VMWare, Arista Networks, Aruba Networks, Border Gateway Protocol (BGP), Brocade, CentOS, Cisco, Security Technical Implementation Guides (STIGs), Dell, Enhanced Interior Gateway Routing Protocol (EIGRP), FRRouting (frr), GRE IPSec, Juniper Networks, MPLS, OSPF, RMF, Redhat, VLANs, DHCP, DNS, BIND 9, GPFS, IBM, LDAP, NFS, RADIUS, YAML",
+  "Weight_Technology": {"Linux": 3, "Python": 2, "Unix": 2, "Dell": 2, "Akamai CLI": 1, "Ansible": 1, "Big Brother": 1, "Check_MK": 1, "MySQL": 1, "NetApp": 1, "PERL": 1, "PostgreSQL": 1, "Puppet": 1, "VMWare": 1, "Arista Networks": 1, "Aruba Networks": 1, "Border Gateway Protocol (BGP)": 1, "Brocade": 1, "CentOS": 1, "Cisco": 1, "Security Technical Implementation Guides (STIGs)": 1, "Enhanced Interior Gateway Routing Protocol (EIGRP)": 1, "FRRouting (frr)": 1, "GRE IPSec": 1, "Juniper Networks": 1, "MPLS": 1, "OSPF": 1, "RMF": 1, "Redhat": 1, "VLANs": 1, "DHCP": 1, "DNS": 1, "BIND 9": 1, "GPFS": 1, "IBM": 1, "LDAP": 1, "NFS": 1, "RADIUS": 1, "YAML": 1},
+  "knowledge": "A Variety Of Linux/Unix Operating Systems And Specific Experience With REL7. Scripting Languages Including Perl, Python, Shell Scripting, And Related Tools Debugging Routing Protocols And TCP/IP. Local And Wide Area Networks With Multiple Routers And VLANs. Network Equipment CLIs. Network Security Concepts And Firewalls Customized Kernels And Customized RPM Packages. Web Hosting Configuration Components, And Database Servers. Writing Ansible Playbooks And YAML Programming Language"
+ },
+ {
+  "JobID": "JOB_077",
+  "JobTitle": "System Engineer",
+  "technologySkill": "Amazon Web Services (AWS), Google Cloud, Active Directory (AD), Azure, IaaS, DNS, GPO, Microsoft Office 365, Azure PowerShell, Windows Server, Exchange Server Virtualization with Hyper-V, Linux, OS, VMWare, Windows",
+  "Weight_Technology": {"Amazon Web Services (AWS)": 1, "Google Cloud": 1, "Active Directory (AD)": 1, "Azure": 1, "IaaS": 1, "DNS": 1, "GPO": 1, "Microsoft Office 365": 1, "Azure PowerShell": 1, "Windows Server": 1, "Exchange Server Virtualization with Hyper-V": 1, "Linux": 1, "OS": 1, "VMWare": 1, "Windows": 1},
+  "knowledge": "Any Of The Following Technologies Is Beneficial (But Not Required): System Center (VMM/SCOM/SCCM), Exchange, Citrix XenApp, FSLogix, Azure Log Analytics, Defender ATP, Veeam, Network, Scripting With PowerShell. Modern Public Cloud Solutions Like Office 365 And Azure IaaS AWS System Operations. Windows, VMware, Hyper-V And Linux OS"
+ },
+ {
+  "JobID": "JOB_078",
+  "JobTitle": "Technical Architect",
+  "technologySkill": "Amazon Web Services (AWS), AngularJS, Azure, DevOps, DevSecOps, Google Cloud, Java, NoSQL, Oauth, ReactJS, Ruby on Rails, Microsoft SQL Server, VueJS, Linux, Microservices, Microsoft Oracle, SOA, Windows",
+  "Weight_Technology": {"Amazon Web Services (AWS)": 2, "Azure": 2, "Microsoft SQL Server": 2, "AngularJS": 1, "DevOps": 1, "DevSecOps": 1, "Google Cloud": 1, "Java": 1, "NoSQL": 1, "Oauth": 1, "ReactJS": 1, "Ruby on Rails": 1, "VueJS": 1, "Linux": 1, "Microservices": 1, "Microsoft Oracle": 1, "SOA": 1, "Windows": 1},
+  "knowledge": "Architecture Standards And Solutions For His/Her Base Technology Platform, Including Reference Architectures, Integration Models Architectures (Clean Architecture, Micro-services, DDD…). Database Security And Performance Tuning (SQL Server, NoSQL Databases). DevOps DevSecOps. Digital Transformation DX. Have High-Level. Non-Functional Requirements (E.G. Security, Performance, Scalability…). Quality Assurance And Development & Testing (Unit Testing, Integration Testing, System Testing, User Acceptance Testing). Ruby On Rails, Java, Vue.js, React.js, AngularJS Hardware, Software And Programming. Life Insurance. Selected Coding Languages: Java, C#, HTML/CSS, JavaScript. Strategic IT Solutions"
+ },
+ {
+  "JobID": "JOB_079",
+  "JobTitle": "Web Developer",
+  "technologySkill": "CSS, HTML, JavaScript, SQL, TypeRocket, Azure, WooCommerce, WordPress, Linux, MySQL, PERL, PHP, Python, RUBY, Adobe Photoshop, AngularJS, JQuery, WIX, .NET, C#, Entity Framework, MVC, Microsoft SQL Server, Web API, Adobe Creative Cloud, CSS3, HTML5, Marketo, Microsoft Office, SASS, UI, Angular, Bootstrap, GitHub, TypeScript, Microsoft Visual Studio, AJAX, APIs, DJANGO, Git, Shell Scripting, Java, CMS, IDE, Laravel, Zend, Microsoft Oracle, XML, CodeIgniter, Drupal, JSON, Magento, RESTful API, Webkit, CMS WordPress",
+  "Weight_Technology": {"JavaScript": 11, "CSS": 8, "HTML": 8, "WordPress": 6, "MySQL": 5, "PHP": 5, "JQuery": 5, "HTML5": 4, "CSS3": 3, "Bootstrap": 3, "SQL": 2, "Python": 2, "C#": 2, "Microsoft SQL Server": 2, "Web API": 2, "AJAX": 2, "APIs": 2, "Git": 2, "CMS": 2, "Laravel": 2, "TypeRocket": 1, "Azure": 1, "WooCommerce": 1, "Linux": 1, "PERL": 1, "RUBY": 1, "Adobe Photoshop": 1, "AngularJS": 1, "WIX": 1, ".NET": 1, "Entity Framework": 1, "MVC": 1, "Adobe Creative Cloud": 1, "Marketo": 1, "Microsoft Office": 1, "SASS": 1, "UI": 1, "Angular": 1, "GitHub": 1, "TypeScript": 1, "Microsoft Visual Studio": 1, "DJANGO": 1, "Shell Scripting": 1, "Java": 1, "IDE": 1, "Zend": 1, "Microsoft Oracle": 1, "XML": 1, "CodeIgniter": 1, "Drupal": 1, "JSON": 1, "Magento": 1, "RESTful API": 1, "Webkit": 1, "CMS WordPress": 1},
+  "knowledge": "ASP.NET C# Stack. All Project Timelines At All Time. Authentication System For External Parties To Connect In And Consumes The APIs. HTML, CSS, Javascript, SQL. Windows Azure Setup IT Development Process (SDLC)  The Most Current Security And Web Development Programming Languages  Creating Landing Pages Within The Marketo Framework. Our Different Audiences And Buyer Personas To Help Guide Targeted Web Content That Addresses Their Unique Needs And Concerns. UI Database Such As MySQL. Design And Ideas In Modeling Languages Such As ULM. Design Patterns, Compose Optimal Algorithms. These As Below: Objective-C, Backlog, Lamda AWS. Azure Function, Micro Service. Visual Studio, Github OOP, Redis, AWS Services OOP, Algorithm And Design Patterns, OutSystems Security Deep Functional"
+ },
+ {
+  "JobID": "JOB_080",
+  "JobTitle": "iOS Developer",
+  "technologySkill": "C#, Cocoa Touch, Swift, Microsoft Visual Studio, Xamarin, Xcode, Ipad, Iphone, C, In App Purchase, Json, Objective C, XML, iOS, REST, CI/CD, Delegation, KVC, KVO, Notifications, RESTful API, RxSwift, SwiftUI, UIKit, iOS SDK, Apple, UI Style Guide, IDE, Microsoft SQL Server, MySQL, React Native, SQLite, Android, OOP, Apple’s Human Interface Guidelines",
+  "Weight_Technology": {"iOS": 9, "Swift": 7, "Objective C": 7, "Cocoa Touch": 3, "Xcode": 3, "Xamarin": 2, "C": 2, "C#": 1, "Microsoft Visual Studio": 1, "Ipad": 1, "Iphone": 1, "In App Purchase": 1, "Json": 1, "XML": 1, "REST": 1, "CI/CD": 1, "Delegation": 1, "KVC": 1, "KVO": 1, "Notifications": 1, "RESTful API": 1, "RxSwift": 1, "SwiftUI": 1, "UIKit": 1, "iOS SDK": 1, "Apple": 1, "UI Style Guide": 1, "IDE": 1, "Microsoft SQL Server": 1, "MySQL": 1, "React Native": 1, "SQLite": 1, "Android": 1, "OOP": 1, "Apple’s Human Interface Guidelines": 1},
+  "knowledge": "Best Practices For Development Of The Mobile User Experience On iPhone/ iPad. Core Data And Plist. In App Purchase And Apple Pay. Swift, Objective C. XML, JSON Code Versioning Tools Such As Git. MVC Development Pattern. Objective-C, Swift, iOS SDK/Frameworks, REST APIs, JSON. Technical Computer Science Fundamentals, Data Structures And Algorithms. Deploying Apps To Apple App Store Using Automated Tooling E.G. Fastlane. Functional Programming And Reactive Patterns Using RxSwift. Test-Driven Development And Test Pyramid. iOS Design Patterns Including MVP, MVC, And MVVM iOS Coding And Design Best Practices The Agile Development Process. The iOS SDK And IDE Development Tools  Communication Protocols Such As HTTP, HTTPS, And TCP/IP Etc. Object Oriented Design. Software Architectures And Design Patterns Engineering Network Such As: Socket, Web Socket, OOP (Object Oriented Programming), Tools: Xcode, SVN, Cocoapods, TestFlight, JIRA"
+ }
+]

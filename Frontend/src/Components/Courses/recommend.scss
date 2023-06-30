@@ -1,0 +1,70 @@
+.exception-popup {
+  box-shadow: none;
+  .modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+    .exception {
+      margin-bottom: 10px;
+      &-title {
+        color: #126196;
+        font-weight: bold;
+      }
+      &-body {
+        padding: 10px;
+        .languages {
+          word-wrap: break-word;
+        }
+        .see-result-btn {
+          min-width: 100px;
+          padding: 8px;
+          border-radius: 8px;
+          overflow: hidden;
+          background-color: #126196;
+          color: #fff;
+          border: none;
+          &:hover {
+            background-color: darken($color: #126196, $amount: 10);
+          }
+          &:active,
+          &:disabled {
+            background-color: darken($color: #126196, $amount: 20%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.rating-modal {
+  box-shadow: none;
+}
+
+.active-btn {
+  color: #fff;
+  background-color: #545cd8;
+  border-color: #545cd8;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn-fs-1 {
+  font-size: 3.5rem !important;
+}
+
+.btn-fs-2 {
+  font-size: 2.8rem !important;
+}
+
+.btn-fs-3 {
+  font-size: 2rem !important;
+}
+
+.btn-fs-4 {
+  font-size: 1.5rem !important;
+}
+
+.btn-fs-5 {
+  font-size: 0.7rem !important;
+}

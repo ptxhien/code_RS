@@ -1,0 +1,64 @@
+{
+    "skills_acquired": "Python, Apache Spark, SQL, Apache Hadoop, Java, Apache Hive, Apache Kafka, Amazon Web Services (AWS), BigQuery, Google Cloud, Scala, R, ETL, Amazon Redshift, JavaScript, MySQL, PostgreSQL, Snowflake, OLAP, C, C#, C++, Kubernetes, API, Big Data, Apache NiFi, Amazon EMR, Amazon S3, AtScale, Oracle Essbase, Apache Impala, Microsoft Power BI, SSAS, Shiny, Tableau, Node.js, Apache Airflow, Apache Avro, Apache Flink, Google Analytics, Apache Hbase, Java Spring, Apache Parquet, Apache Samza, Amazon Athena, NumPy, Pandas, Redshift, Elastic Search, Microsoft PowerPoint, MongoDB, Apache Storm, Bash, Google App Engine, Bitbucket, CI/CD, Cloud Bigtable, Cloud Composer, Cloud DataStore, Cloud Dataflow, Cloud Dataprep, Cloud Dataproc, Cloud Spanner, Cloud Storage, Cloud SQL, GitLab, Jenkins, Microservices, Stackdriver, AI, Evolutionary Algorithms, Fuzzy Logic, Neural Network, OLTP, Git, NoSQL, REST, Version Control, SAS, Control-M, Apache Oozie, HDFS",
+    "skills_to_learn": "Apache Spark, Apache Hadoop, Apache Hive, Apache Kafka, BigQuery, Google Cloud, Scala, ETL, Amazon Redshift, Snowflake, OLAP, C, C#, C++, Kubernetes, Big Data, Apache NiFi, Amazon EMR, Amazon S3, AtScale, Oracle Essbase, Apache Impala, Microsoft Power BI, SSAS, Shiny, Tableau, Node.js, Apache Airflow, Apache Avro, Apache Flink, Apache Hbase, Java Spring, Apache Parquet, Apache Samza, Amazon Athena, Redshift, Elastic Search, Microsoft PowerPoint, MongoDB, Apache Storm, Bash, Google App Engine, Bitbucket, CI/CD, Cloud Bigtable, Cloud Composer, Cloud DataStore, Cloud Dataflow, Cloud Dataprep, Cloud Dataproc, Cloud Spanner, Cloud Storage, Cloud SQL, GitLab, Jenkins, Microservices, Stackdriver, AI, Evolutionary Algorithms, Fuzzy Logic, Neural Network, OLTP, Git, NoSQL, REST, Version Control, SAS, Control-M, Apache Oozie, HDFS",
+    "courses_online": {
+        "status": 400,
+        "message": "no courses",
+        "Course": [],
+        "Exception": [
+            {
+                "Job_offer": "Machine Learning Engineer, Database Engineer, Lead Data Scientist, Senior Data Scientist, Junior Data Analyst"
+            }
+        ],
+        "Ngoai_Le": {
+            "Course_Offer": [],
+            "ExceptionDetail": []
+        }
+    },
+    "courses_offline": {
+        "status": 201,
+        "message": "frameRemain_Fulltime",
+        "Course": [
+            {
+                "courseID": "COURSE_447",
+                "courseTitle": "[HN] IT Fundamentals",
+                "Tech_Skill": "C",
+                "studyTime": "18:00-21:00 (2-4-6)",
+                "studyForm": "Part time",
+                "technologySkill": "C, HTML, CSS, JavaScript, Visual Studio Code",
+                "outcomeLearning": "",
+                "provider": "FPT Software Acedemy",
+                "duration": "2 months",
+                "feeVND": "13900000",
+                "URL": "https://fsoft-academy.edu.vn/vi/khoa-hoc/hn-it-fundamentals-41",
+                "language": "Vietnamese",
+                "rating": "",
+                "peopleRating": "",
+                "location": "Tòa nhà FPT, 17 Duy Tân, quận Cầu Giấy, Hà Nội",
+                "level": "Beginner",
+                "distance": "0.5",
+                "is_online": "false"
+            }
+        ],
+        "Exception": [
+            {
+                "ExceptionType": "Frame_Remain",
+                "frame_remain": "18:00-21:00 (2-4-6)"
+            },
+            {
+                "ExceptionType": "Fee",
+                "Input": "5000000.0",
+                "Output": "13900000.0",
+                "Balance": "8900000.0"
+            },
+            {
+                "lstSkill_Provider_ngoaile": "C",
+                "lstSkill_notProvider_ngoaile": "Apache Spark, Apache Hadoop, Apache Hive, Apache Kafka, BigQuery, Google Cloud, Scala, ETL, Amazon Redshift, Snowflake, OLAP, C#, C++, Kubernetes, Big Data, Apache NiFi, Amazon EMR, Amazon S3, AtScale, Oracle Essbase, Apache Impala, Microsoft Power BI, SSAS, Shiny, Tableau, Node.js, Apache Airflow, Apache Avro, Apache Flink, Apache Hbase, Java Spring, Apache Parquet, Apache Samza, Amazon Athena, Redshift, Elastic Search, Microsoft PowerPoint, MongoDB, Apache Storm, Bash, Google App Engine, Bitbucket, CI/CD, Cloud Bigtable, Cloud Composer, Cloud DataStore, Cloud Dataflow, Cloud Dataprep, Cloud Dataproc, Cloud Spanner, Cloud Storage, Cloud SQL, GitLab, Jenkins, Microservices, Stackdriver, AI, Evolutionary Algorithms, Fuzzy Logic, Neural Network, OLTP, Git, NoSQL, REST, Version Control, SAS, Control-M, Apache Oozie, HDFS"
+            }
+        ],
+        "Ngoai_Le": {
+            "Course_Offer": [],
+            "ExceptionDetail": []
+        }
+    }
+}

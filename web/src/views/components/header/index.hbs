@@ -1,0 +1,65 @@
+<!-- header area start -->
+<header id="header">
+  <!-- header bottom area start -->
+  <div class="header-bottom">
+    <div class="hb-inner">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-2 col-sm-6">
+            <div class="logo">
+              <a href="/"><img src="/assets/HomePage/img/icon/logo.png" alt="logo"></a>
+            </div>
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="main-menu">
+              <nav id="nav_mobile_menu">
+                <ul class="d-flex justify-content-center">
+                  <li{{#if (compare nav "home")}} class="active" {{/if}}><a href="/">home</a></li>
+                  <li{{#if (compare nav "courses")}} class="active" {{/if}}><a href="/courses">courses</a></li>
+                  <li{{#if (compare nav "about" )}} class="active" {{/if}}><a href="/about">about</a></li>
+                  <li{{#if (compare nav "contact")}} class="active" {{/if}}><a href="/contact">contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          {{#if isLogged}}
+          <div class="user-box">
+            <a href="javascript:void(0)" class="user"> 
+              <i class="icofont icofont-ui-user"></i> 
+              {{user.username}}
+              <i class="icofont icofont-rounded-down"></i>
+            </a>
+            <ul class="submenu">
+              <li><a href="/user/profile">Profile</a></li>
+              <li><a href="/user/history">History</a></li>
+              <li><a href="javascript:void(0)" id="logout-btn">Log out</a></li>
+            </ul>
+          </div>
+
+          {{else}}
+            <div class="d-none" id="not-logged"></div>
+            {{#if (compare nav "register")}}
+            {{else}}
+            <div class="col-lg-2 col-md-5 col-sm-5">
+              <div class="htp-register-btn">
+                <a href="/auth/register" id="register-btn">Registration</a>
+              </div>
+            </div>
+            {{/if}}
+
+          <div class="col-lg-2 col-md-5 col-sm-5">
+            <div class="htp-register-btn">
+              <a href="#" type="button" data-toggle="modal" data-target="#loginModal">Login</a>
+            </div>
+          </div>
+          {{/if}}
+          <div class="col-12 d-block d-lg-none">
+            <div id="mobile_menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header bottom area end -->
+</header>
+<!-- header area end -->

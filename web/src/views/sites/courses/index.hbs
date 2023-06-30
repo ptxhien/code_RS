@@ -1,0 +1,195 @@
+<div class="course-subscription-area">
+  <div class="container">
+    <div class="course-subscription">
+      <div class="err-display"></div>
+      <form action="" method="POST" id="recommendation" >
+        <div class="select-course">
+          <span class="course-select">
+            <select name="jobTitle" id="job-title">
+              <option value="" {{#if (compare jobTitle "")}} selected {{/if}} disabled>Select job title</option>
+              {{#each jobs}}
+              <option value="{{this.jobTitle}}" {{#if (compare jobTitle this.jobTitle)}} selected {{/if}} >{{this.jobTitle}}</option>
+              {{/each}}
+            </select>
+          </span>
+        </div>
+        <div class="select-course">
+          <span class="course-select">
+            <select name="form" id="learning-method">
+              <option value="" {{#if (compare form "")}} selected {{/if}}>Select learning method</option>
+              <option value="online" {{#if (compare form "online")}} selected {{/if}}>Online classes</option>
+              <option value="offline" {{#if (compare form "offline")}} selected {{/if}}>Offline classes</option>
+            </select>
+          </span>
+        </div>
+        <div class="select-course">
+          <span class="course-select">
+            <select id="duration-from" name="durationFrom">
+              <option value="0" {{#if (compare durationFrom "0")}} selected {{/if}}>Min duration</option>
+              <option value="1" {{#if (compare durationFrom "1")}} selected {{/if}}>1</option>
+              <option value="2" {{#if (compare durationFrom "2")}} selected {{/if}}>2</option>
+              <option value="3" {{#if (compare durationFrom "3")}} selected {{/if}}>3</option>
+              <option value="4" {{#if (compare durationFrom "4")}} selected {{/if}}>4</option>
+              <option value="4" {{#if (compare durationFrom "5")}} selected {{/if}}>5</option>
+            </select>
+          </span>
+        </div>
+        <div class="select-course">
+          <span class="course-select">
+            <select id="duration-to" name="durationTo">
+              <option value="7" {{#if (compare durationTo "7")}} selected {{/if}}>Max duration</option>
+              <option value="2" {{#if (compare durationTo "2")}} selected {{/if}}>2</option>
+              <option value="3" {{#if (compare durationTo "3")}} selected {{/if}}>3</option>
+              <option value="4" {{#if (compare durationTo "4")}} selected {{/if}}>4</option>
+              <option value="5" {{#if (compare durationTo "5")}} selected {{/if}}>5</option>
+              <option value="6" {{#if (compare durationTo "6")}} selected {{/if}}>6</option>
+            </select>
+          </span>
+        </div>
+        <button type="submit" id="submit_course">Recommendation<i
+            class="icofont icofont-long-arrow-right"></i></button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- populer course area start -->
+<div class="all-courses pt--100 pb--70">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-8">
+        <div class="row" id="courses-box">
+          {{#each data}}
+          <div class="col-lg-4 col-md-6">
+            <div class="single-course">
+              <div class="course-thumb">
+                <a href="/courses/{{courseID}}"><img src="https://source.unsplash.com/random/300x200?sig={{@index}}" alt="image"></a>
+              </div>
+              <div class="course-content">
+                <div class="course-feee">
+                  <span>{{toHours durationSecond}} hours</span>
+                  <span>$ {{toDollar feeVND}}</span>
+                </div>
+                <h2><a href="/courses/{{courseID}}">{{courseTitle}}</a></h2>
+                <p>{{outcomeLearning}}</p>
+                <div class="s-course-meta">
+                  <div class="sc-thumb">
+                    <img src="/assets/HomePage/img/author/img1.jpg" alt="image">
+                  </div>
+                  <div class="sc-text">
+                    <h4>{{provider}}</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+        {{#if hasPagination}}
+        <ul class="pagination justify-content-center">
+          <li class="page-item{{#if pagination.hasPrev}}{{else}} disabled{{/if}}"><a class="page-link" href="?page={{minus pagination.page 1}}">&lt;</a></li>
+          {{#each pagination.nav}}
+          <li class="page-item{{#if (compare ../pagination.page this)}} active{{/if}}"><a class="page-link" href="?page={{this}}">{{this}}</a></li>
+          {{/each}}
+          <li class="page-item{{#if pagination.hasNext}}{{else}} disabled{{/if}}"><a class="page-link" href="?page={{plus pagination.page 1}}">&gt;</a></li>
+        </ul>
+        {{/if}}
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="widget_sidebar">
+          <!-- widget search start -->
+          <div class="widget widget_search">
+            <form action="#">
+              <input type="text" name="search" placeholder="Search Here..">
+              <button type="submit"><i class="icofont icofont-search-alt-2"></i></button>
+            </form>
+          </div>
+          <!-- widget search end -->
+          <!-- widget category start -->
+          {{#if hasMissingSkills}}
+          <div class="widget widget_category">
+            <h2 class="widget_title">Missing Skills</h2>
+            <h4 class="widget_title">Skill provided</h4>
+            <ul>
+              {{#each skillsProvided}}
+              <li><a href="#">{{this}}</a></li>
+              {{/each}}
+            </ul>
+            <h4 class="widget_title">Skill not provided</h4>
+            <p>
+              {{#each skillsNotProvided}}
+              {{#if @last}}
+              {{this}}
+              {{else}}
+              {{this}}, 
+              {{/if}}
+              {{/each}}
+            </p>
+          </div>
+          {{/if}}
+          <!-- widget category end -->
+          <!-- widget teags start -->
+          <div class="widget widget_tags">
+            <h2 class="widget_title">Level</h2>
+            <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Beginner</a></li>
+              <li><a href="#">Middle</a></li>
+              <li><a href="#">Junior</a></li>
+              <li><a href="#">Senior</a></li>
+            </ul>
+          </div>
+          <!-- widget teags end -->
+          <!-- widget recent post start -->
+          <div class="widget widget_recent_entries">
+            <h2 class="widget_title">Recent Post</h2>
+            <div class="rcp_post_ist">
+              <div class="rcp_single">
+                <div class="rcp_thumb">
+                  <img src="/assets/HomePage/img/recent-post/img1.jpg" alt="image">
+                </div>
+                <div class="rcp_content">
+                  <h2><a href="blog-standard.html">Contrary to popular belief, Lorem Ipsum is</a>
+                  </h2>
+                  <span>25 Sep 2017</span>
+                </div>
+              </div>
+              <div class="rcp_single">
+                <div class="rcp_thumb">
+                  <img src="/assets/HomePage/img/recent-post/img2.jpg" alt="image">
+                </div>
+                <div class="rcp_content">
+                  <h2><a href="blog-standard.html">Contrary to popular belief, Lorem Ipsum is</a>
+                  </h2>
+                  <span>25 Sep 2017</span>
+                </div>
+              </div>
+              <div class="rcp_single">
+                <div class="rcp_thumb">
+                  <img src="/assets/HomePage/img/recent-post/img3.jpg" alt="image">
+                </div>
+                <div class="rcp_content">
+                  <h2><a href="blog-standard.html">Contrary to popular belief, Lorem Ipsum is</a>
+                  </h2>
+                  <span>25 Sep 2017</span>
+                </div>
+              </div>
+              <div class="rcp_single">
+                <div class="rcp_thumb">
+                  <img src="/assets/HomePage/img/recent-post/img4.jpg" alt="image">
+                </div>
+                <div class="rcp_content">
+                  <h2><a href="blog-standard.html">Contrary to popular belief, Lorem Ipsum is</a>
+                  </h2>
+                  <span>25 Sep 2017</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- widget recent post end -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- populer course area end -->

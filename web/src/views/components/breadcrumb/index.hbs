@@ -1,0 +1,18 @@
+<!-- crumbs area start -->
+<div class="crumbs-area">
+  <div class="container">
+    <div class="crumbs-inner">
+      <h2>{{title}}</h2>
+      <ul>
+        {{#each breadcrumb}}
+          {{#if @last}}
+          <li><span>{{name}}</span></li>
+          {{else}}
+          <li><a href="{{link}}">{{name}}</a></li>
+          {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- crumbs area end -->

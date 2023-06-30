@@ -1,0 +1,741 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1197px) {
+    /*-------------------------
+        home one
+    ---------------------------*/
+    .slider-content h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .cta-left h2 {
+        font-size: 29px;
+    }
+    .our-student-say{
+        margin-top: 60px;
+    }
+    .subscription-area h2 {
+        font-size: 25px;
+    }
+    .footer-contact ul li p {
+        font-size: 13px;
+    }
+    .contact-r-thumb {
+        margin-top: 60px;
+    }
+}
+
+
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*-------------------------
+        home one
+    ---------------------------*/
+    .hb-inner,
+    .sticky-header .hb-inner{
+        position: inherit;
+    }
+    .header-bottom{
+        height: auto;
+    }
+    .logo {
+        padding: 23px 0px;
+        text-align: center;
+    }
+    .slider-content h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .slider-content{
+        padding-right: 60px;
+    }
+    .bl-none {
+        border-left: 1px solid #e9e0e0;
+    }
+    .single-feature,
+    .single-course{
+        margin-bottom: 20px;
+    }
+    .feature-area {
+        padding: 90px 0px 60px;
+    }
+    .populer-course{
+        padding-bottom: 70px;
+    }
+    .callto-action:before{
+        width: 35%;
+    }
+    .cta-left h2 {
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+    .cta-count-single {
+        margin: 5px 0px;
+    }
+    .teacher-area,
+    .feature-blog {
+        padding: 90px 0px 60px;
+    }
+    .single-teacher,
+    .ft-single-blog{
+        margin-bottom: 30px;
+    }
+    .our-student-say{
+        padding-top: 70px;
+    }
+    .event-testimonial{
+        padding-bottom: 100px;
+    }
+    .subscription-area h2 {
+        font-size: 23px;
+    }
+    .footer-top{
+        padding: 90px 0px;
+    }
+    .footer-contact ul li{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer-contact ul li p {
+        font-size: 13px;
+    }
+    .footer-contact ul li span {
+        font-size: 18px;
+        margin-right: 7px;
+    }
+
+    /*-------------------------
+        About Us
+    ---------------------------*/
+    .crumbs-inner h2 {
+        font-size: 21px;
+        margin-bottom: 13px;
+    }
+    .about-area {
+        padding: 30px 0px 80px;
+    }
+    .abt-right-content {
+        margin-top: 40px;
+    }
+    .abt-right-content h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .abt-right-content p{
+        font-size: 15px;
+    }
+    .education-years-area{
+        padding-top: 90px;
+    }
+    .edu-right-thumb{
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /*-------------------------
+        Contact Us
+    ---------------------------*/
+    .contact-area{
+        padding: 90px 0px 70px;
+    }
+    .wpcf7 h2{
+        margin-bottom: 45px;
+    }
+
+    /*-------------------------
+        Course Page
+    ---------------------------*/
+    .all-courses{
+        padding: 90px 0 60px;
+    }
+    .courses-list .single-course{
+        display: block;
+    }
+    .courses-list .course-content {
+        padding-bottom: 50px;
+        margin-top: -22px;
+    }
+    .courses-list {
+        padding: 90px 0px;
+    }
+    .courses-details{
+        padding: 90px 0px;
+    }
+    /*blog css*/
+    .all-blog{
+        padding: 90px 0px;
+    }
+    .blog-details{
+        padding: 90px 0px;
+    }
+    .blg-content {
+        padding: 0px 15px 30px 30px;
+    }
+
+    /*-------------------------
+        event Page
+    ---------------------------*/
+    .event-area{
+        padding: 80px 0px 50px;
+    }
+    .event-list-type .evnt-thumb{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .event-list-type .ev-content {
+        display: block;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        padding: 30px 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .ev-meta span{
+        font-size: 11px;
+    }
+    .event-details{
+        padding: 90px 0px 60px;
+    }
+
+
+
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*-------------------------
+        home one
+    ---------------------------*/
+    ul.htp-addresss li {
+        margin-right: 17px;
+    }
+    ul.htp-social li a{
+        margin: 9px 1px;
+    }
+    .hb-inner,
+    .sticky-header .hb-inner{
+        position: inherit;
+    }
+    .header-bottom{
+        height: auto;
+    }
+    .logo {
+        padding: 23px 0px;
+        text-align: center;
+    }
+    .htp-register-btn {
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .cta-left-inner {
+        display: none;
+    }
+    .slider-content {
+        padding: 30px 15px 50px 15px;
+    }
+    .slider-content:before{
+        width: 100%;
+    }
+    .slider-content h2 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .slider-item {
+        height: 509px;
+        padding-bottom: 76px;
+    }
+    .course-subscription form{
+        display: block;
+    }
+    .course-subscription input, .course-subscription .select-course {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .course-subscription {
+        padding: 40px 25px;
+    }
+    .course-subscription button{
+        margin-top: 20px;
+    }
+    .feature-area,
+    .teacher-area,
+    .feature-blog{
+        padding: 80px 0px 60px;
+    }
+    .bl-none {
+        border-left: 1px solid #e9e0e0;
+    }
+    .single-feature,
+    .single-course,
+    .ft-single-blog{
+        margin-bottom: 30px;
+    }
+    .populer-course{
+        padding-bottom: 60px;
+    }
+    .callto-action:before{
+        display: none;
+    }
+    .cta-left{
+        background: #fdb506 url(../img/icon/pie-face.png);
+    }
+    .cta-left{
+        padding: 50px 15px;
+    }
+    .cta-left h2 {
+        font-size: 23px;
+    }
+    .cta-right{
+        padding-left: 0;
+        padding: 50px 0px;
+    }
+    .single-teacher{
+        margin-bottom: 30px;
+    }
+    .ev-left{
+        margin-right: 10px;
+    }
+    .our-student-say{
+        padding-top: 80px;
+    }
+    .event-testimonial{
+        padding-bottom: 90px;
+    }
+    .subscription-area{
+        padding: 70px 0px 80px;
+    }
+    .subscription-area h2 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .footer-top{
+        padding: 80px 0px 50px;
+    }
+    .fwidget{
+        margin-bottom: 40px;
+    }
+    .footer-contact ul li {
+        float: none;
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    /*-------------------------
+        About Us
+    ---------------------------*/
+    .crumbs-inner h2 {
+        font-size: 21px;
+        margin-bottom: 13px;
+    }
+    .about-area {
+        padding: 80px 0px;
+    }
+    .abt-right-content {
+        margin-top: 40px;
+    }
+    .abt-right-content h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .abt-right-content p{
+        font-size: 15px;
+    }
+    .education-years-area{
+        padding-top: 80px;
+    }
+    .edu-right-thumb{
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /*-------------------------
+        Contact Us
+    ---------------------------*/
+    .contact-area{
+        padding-top: 80px;
+    }
+    .wpcf7 h2{
+        margin-bottom: 45px;
+    }
+    .contact-r-thumb{
+        margin-top: 30px;
+    }
+
+    /*-------------------------
+        Course Page
+    ---------------------------*/
+    .all-courses{
+        padding: 80px 0 50px;
+    }
+    .courses-list .single-course{
+        display: block;
+    }
+    .courses-list .course-content {
+        padding-bottom: 50px;
+        margin-top: -22px;
+    }
+    .courses-list {
+        padding: 80px 0px;
+    }
+    .widget_search{
+        margin-top: 70px;
+    }
+    .courses-details{
+        padding: 80px 0px;
+    }
+    /*blog css*/
+    .all-blog{
+        padding: 80px 0px;
+    }
+    .blog-details{
+        padding: 80px 0px;
+    }
+    .blg-content {
+        padding: 0px 15px 30px 25px;
+    }
+
+    /*-------------------------
+        event Page
+    ---------------------------*/
+    .event-area{
+        padding: 80px 0px 50px;
+    }
+    .event-list-type .evnt-thumb{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .event-list-type .ev-content {
+        display: block;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        padding: 30px 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .ev-meta span{
+        font-size: 11px;
+    }
+
+    /*-------------------------
+        event Details
+    ---------------------------*/
+    .event-details{
+        padding: 80px 0px;
+    }
+    .event-details .single-teacher{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .event-details p.text {
+        padding: 8px 15px;
+    }
+
+}
+
+
+
+/* small mobile :320px. */
+
+@media (min-width: 240px) and (max-width: 479px) {
+    /*-------------------------
+        home one
+    ---------------------------*/
+    .header-top{
+        padding: 20px 0px;
+    }
+    .hb-inner,
+    .sticky-header .hb-inner{
+        position: inherit;
+    }
+    .header-bottom{
+        height: auto;
+    }
+    ul.htp-addresss li {
+        margin-right: 0;
+        text-align: center;
+        display: block;
+        margin: 12px 0px;
+    }
+    ul.htp-social{
+        text-align: center;
+    }
+    .logo {
+        padding: 23px 0px;
+        text-align: center;
+    }
+    .htp-register-btn {
+        text-align: center;
+        padding: 15px 0px;
+        border-top: 1px solid #222222;
+    }
+    .cta-left-inner {
+        display: none;
+    }
+    .slider-content {
+        padding: 30px 15px 50px 15px;
+    }
+    .slider-content:before{
+        width: 100%;
+    }
+    .slider-content h2 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .slider-item {
+        height: 509px;
+        padding-bottom: 76px;
+    }
+    .course-subscription form{
+        display: block;
+    }
+    .course-subscription input, .course-subscription .select-course {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .course-subscription {
+        padding: 40px 25px;
+    }
+    .course-subscription button{
+        margin-top: 20px;
+    }
+    .feature-area,
+    .teacher-area,
+    .feature-blog{
+        padding: 70px 0px 50px;
+    }
+    .bl-none {
+        border-left: 1px solid #e9e0e0;
+    }
+    .single-feature,
+    .single-course,
+    .ft-single-blog{
+        margin-bottom: 30px;
+    }
+    .populer-course{
+        padding-bottom: 50px;
+    }
+    .callto-action:before{
+        display: none;
+    }
+    .cta-left{
+        background: #fdb506 url(../img/icon/pie-face.png);
+    }
+    .cta-left{
+        padding: 50px 15px;
+    }
+    .cta-left h2 {
+        font-size: 23px;
+    }
+    .cta-right{
+        display: block;
+        padding-left: 0;
+        padding: 50px 0px;
+    }
+    .cta-count-single{
+        margin: 20px 0px;
+    }
+    .single-teacher{
+        margin-bottom: 30px;
+    }
+    .ev-left{
+        margin-right: 10px;
+    }
+    .our-student-say{
+        padding-top: 70px;
+    }
+    .event-testimonial{
+        padding-bottom: 80px;
+    }
+    .subscription-area h2 {
+        font-size: 23px;
+        margin-bottom: 24px;
+    }
+    .subs-form form input[type='submit']{
+        position: inherit;
+        right: 0;
+        top: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 56px;
+    }
+    .footer-top{
+        padding: 70px 0px 20px;
+    }
+    .fwidget{
+        margin-bottom: 40px;
+    }
+    .footer-contact ul li {
+        float: none;
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    /*-------------------------
+        About Us
+    ---------------------------*/
+    .crumbs-inner h2 {
+        font-size: 21px;
+        margin-bottom: 13px;
+    }
+    .about-area {
+        padding: 70px 0px;
+    }
+    .abt-right-content {
+        margin-top: 40px;
+    }
+    .abt-right-content h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .abt-right-content p{
+        font-size: 15px;
+    }
+    .education-years-area{
+        padding-top: 70px;
+    }
+    .edu-years-filter a{
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 15px;
+        letter-spacing: 0;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .edu-years-filter a span{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .edu-years-filter:before{
+        display: none;
+    }
+    .edu-right-thumb{
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /*-------------------------
+        Contact Us
+    ---------------------------*/
+    .contact-area{
+        padding-top: 70px;
+    }
+    .wpcf7 h2{
+        margin-bottom: 45px;
+    }
+    .contact-r-thumb{
+        margin-top: 30px;
+    }
+    .contact-info-box {
+        padding: 55px 15px 15px 18px;
+    }
+
+    /*-------------------------
+        Course Page
+    ---------------------------*/
+    .all-courses{
+        padding: 70px 0 40px;
+    }
+    .courses-list .single-course{
+        display: block;
+    }
+    .courses-list .course-content {
+        padding-bottom: 50px;
+        margin-top: -22px;
+    }
+    .courses-list {
+        padding: 70px 0px;
+    }
+    .widget_search{
+        margin-top: 70px;
+    }
+    /*courses-details*/
+    .courses-details{
+        padding: 70px 0px;
+    }
+    .comment-thumb img {
+        height: 80px;
+        width: 80px;
+    }
+    .course-content p{
+        font-size: 15px;
+    }
+    .children{
+        padding-left: 35px;
+    }
+
+    /*-------------------------
+        blog Page
+    ---------------------------*/
+    .all-blog{
+        padding: 70px 0px;
+    }
+    .blog-details{
+        padding: 70px 0px;
+    }
+    .blg-content {
+        padding: 0px 15px 30px 18px;
+    }
+
+    /*-------------------------
+        event Page
+    ---------------------------*/
+    .event-area{
+        padding: 70px 0px 40px;
+    }
+    .event-list-type .evnt-thumb{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .event-list-type .ev-content {
+        display: block;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+    .ev-meta span{
+        font-size: 9px;
+    }
+
+    /*-------------------------
+        event Details
+    ---------------------------*/
+    .event-details{
+        padding: 70px 0px;
+    }
+    .event-details .ev-content .ev-left{
+        display: none;
+    }
+    .event-details .ev-content{
+        padding-bottom: 0;
+    }
+    .cdown{
+        flex-basis: 45%;
+    }
+    .event-details .single-teacher{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+
+
+
+}

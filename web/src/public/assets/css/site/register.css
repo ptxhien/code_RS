@@ -1,0 +1,57 @@
+.wpcf7 h2{
+        font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #222222;
+    margin-bottom: 70px;
+    padding-bottom: 36px;
+    position: relative;
+}
+.wpcf7 h2:before{
+        content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 80px;
+    background-color: #ffb606;
+    border-radius: 5px;
+}
+.wpcf7 form{}
+.wpcf7 form input,
+.wpcf7 form textarea{
+        width: 100%;
+    height: 50px;
+    border: 1px solid #e9e0e0;
+    border-radius: 3px;
+    padding-left: 20px;
+    letter-spacing: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.wpcf7 form textarea{
+    height: 155px;
+}
+.wpcf7 form input[type='submit']{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #ffb606;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    max-width: 100%;
+    border-radius: 3px;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.wpcf7 form input[type='submit']:hover{
+    background-color: #222;
+}

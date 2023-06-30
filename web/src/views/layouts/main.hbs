@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<!-- Mirrored from irsfoundation.com/tf/html/erudition-preview/erudition/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Sep 2021 17:58:43 GMT -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ERUDION - {{title}}</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{#if css}}
+  {{>(print css)}}
+  {{else}}
+  {{>"dynamic_css/index"}}
+  {{/if}}
+  <!-- modernizr css -->
+  <script src="assets/HomePage/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  
+
+  {{>"loading/index"}}
+
+  
+  {{>"header/index"}}
+
+  {{#if (compare nav "home")}} 
+  {{else}}
+  {{>"breadcrumb/index"}}
+  {{/if}}
+
+  {{{body}}}
+  
+  {{>"footer/index"}}
+
+  {{>"login/index"}}
+
+  {{#if js}}
+  {{>(print js)}}
+  {{else}}
+  {{>"dynamic_js/index"}}
+  {{/if}}
+</body>
+
+
+<!-- Mirrored from irsfoundation.com/tf/html/erudition-preview/erudition/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Sep 2021 17:59:41 GMT -->
+
+</html>
