@@ -383,12 +383,10 @@ def LstTechCourse_Provider(df, occupation_id):
 
 
 
-def LstTechCourse_NotProvider(lst, missing_skill):
+def LstTechCourse_NotProvider(d_F, missing_skill):
     d_not_F = missing_skill
-    for key1 in missing_skill:
-        for key in lst.items():
-            if key == key1:
-                d_not_F.pop(key1)
+    for key in d_F.keys():
+        del d_not_F[key]
     return d_not_F
 
 

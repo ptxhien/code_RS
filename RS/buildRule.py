@@ -12,7 +12,7 @@ def convertlst_toString(lst):
 # build  online
 
 
-def BuildRule_Online(df_On, missing_skill, lan_know, occupation_id, feeMax, 
+def BuildRule_Online(df_On, missing_skill,str_skills_to_learn, lan_know, occupation_id, feeMax, 
                      condition_duration, typeFilter):
     flat_level = 0
     flat_language = 0
@@ -31,7 +31,7 @@ def BuildRule_Online(df_On, missing_skill, lan_know, occupation_id, feeMax,
 
     rule_On_lan = pd.DataFrame()
     rule_On_remain = pd.DataFrame()
-    
+
     # job similarity
     lst_job_sim = knowledgeDomain.job_related(occupation_id)
     del lst_job_sim[0:1]
@@ -149,7 +149,7 @@ def BuildRule_Online(df_On, missing_skill, lan_know, occupation_id, feeMax,
         # TH2: courses have other languages to use
         elif flat_language == -1 and flat_level == 0:
             lstSkill_Provider_ngoaile, lstSkill_notProvider_ngoaile = function.lst_Skill_RS(
-                result_ngoaile, missing_skill, occupation_id)
+                result_ngoaile, str_skills_to_learn, occupation_id)
             dict_f_ngoaile.append({"ExceptionType": "Lan",
                                    "lan_remain": str_lan_no_know})
 
@@ -193,7 +193,7 @@ def BuildRule_Online(df_On, missing_skill, lan_know, occupation_id, feeMax,
         # TH3: COURSE HAS THE RIGHT LANGUAGE AND LEVEL
         elif flat_language == 0 and flat_level == 0:
             lstSkill_Provider, lstSkill_notProvider = function.lst_Skill_RS(
-                result, missing_skill, occupation_id)
+                result, str_skills_to_learn, occupation_id)
             str_new_lstSkill_Provider = convertlst_toString(lstSkill_Provider)
             str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
             # str_new_lstSkill_notProvider = convertlst_toString(lstSkill_notProvider)
@@ -298,7 +298,7 @@ def Test_Duration_Fee(result, condition_duration, feeMax, typeFilter):
     return result, dict_f_ngoaile
 
 
-def Off_Lan(result, missing_skill, occupation, feeMax, condition_duration, 
+def Off_Lan(result, missing_skill, str_skills_to_learn, occupation, feeMax, condition_duration, 
             lat1, lon1, Learner_Job_Now, Learner_FreeTime, typeFilter):
     dict_f_Offline = {}
     dict_f_ngoaile = []
@@ -319,7 +319,7 @@ def Off_Lan(result, missing_skill, occupation, feeMax, condition_duration,
                                "frame_remain": str_freetime_remain})
     # result
     lstSkill_Provider, lstSkill_notProvider = function.lst_Skill_RS(
-        result, missing_skill, occupation)
+        result, str_skills_to_learn, occupation)
     str_new_lstSkill_Provider = convertlst_toString(lstSkill_Provider)
     str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
     if len(result) > 0:
@@ -362,7 +362,7 @@ def Off_Lan(result, missing_skill, occupation, feeMax, condition_duration,
     return result, dict_f_Offline
 
 
-def Off_NotLan(result, missing_skill, lan_no_know, occupation, feeMax, 
+def Off_NotLan(result, missing_skill, str_skills_to_learn, lan_no_know, occupation, feeMax, 
                condition_duration, lat1, lon1, Learner_Job_Now, 
                Learner_FreeTime, typeFilter):
     dict_f_Offline = {}
@@ -384,7 +384,7 @@ def Off_NotLan(result, missing_skill, lan_no_know, occupation, feeMax,
                                "frame_remain": str_freetime_remain})
 
     lstSkill_Provider, lstSkill_notProvider = function.lst_Skill_RS(
-        result, missing_skill, occupation)
+        result, str_skills_to_learn, occupation)
     str_new_lstSkill_Provider = convertlst_toString(lstSkill_Provider)
     str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
 
@@ -433,7 +433,7 @@ def Off_NotLan(result, missing_skill, lan_no_know, occupation, feeMax,
     return result, dict_f_Offline
 
 
-def BuildRule_Offline(df_Off, missing_skill, lan_know, lat1, lon1, occupation_id, Learner_Job_Now,
+def BuildRule_Offline(df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1, occupation_id, Learner_Job_Now,
                       Learner_FreeTime, feeMax, condition_duration, typeFilter):
     flat_level = 0
     flat_language = 0
@@ -527,13 +527,13 @@ def BuildRule_Offline(df_Off, missing_skill, lan_know, lat1, lon1, occupation_id
         # TH2: COURSE IS NOT LANGUAGE RIGHT
         elif flat_language == -1 and flat_level == 0:
             if len(result) > 0:
-                result, dict_f_Offline = Off_NotLan(result, missing_skill, lan_no_know_copy, occupation_id,
+                result, dict_f_Offline = Off_NotLan(result, missing_skill,str_skills_to_learn, lan_no_know_copy, occupation_id,
                                                     feeMax, condition_duration, lat1, lon1,
                                                     Learner_Job_Now, Learner_FreeTime, typeFilter)
 
         # TH3: LANGUAGE AND LEVEL FITS COURSE
         elif flat_language == 0 and flat_level == 0:
-            result, dict_f_Offline = Off_Lan(result, missing_skill, occupation_id, feeMax,
+            result, dict_f_Offline = Off_Lan(result, missing_skill,str_skills_to_learn, occupation_id, feeMax,
                                              condition_duration, lat1, lon1, Learner_Job_Now,
                                              Learner_FreeTime, typeFilter)
             
@@ -554,17 +554,17 @@ def BuildRule_Offline(df_Off, missing_skill, lan_know, lat1, lon1, occupation_id
 
 # Check Online + Offline
 
-def KiemTraOnlineNgoaiLe(df_On, missing_skill, lan_know, occupation_id, feeMax, condition_duration, typeFilter,
+def KiemTraOnlineNgoaiLe(df_On, missing_skill,str_skills_to_learn, lan_know, occupation_id, feeMax, condition_duration, typeFilter,
                          ):
-    result_Online, dict_f_Online = BuildRule_Online(df_On, missing_skill, lan_know, occupation_id, feeMax, 
+    result_Online, dict_f_Online = BuildRule_Online(df_On, missing_skill,str_skills_to_learn, lan_know, occupation_id, feeMax, 
                      condition_duration, typeFilter)
     return result_Online, dict_f_Online
 
 
-def KiemTraOfflineNgoaiLe(df_Off, missing_skill, lan_know, lat1, lon1, occupation, Learner_Job_Now, Learner_FreeTime, feeMax, 
+def KiemTraOfflineNgoaiLe(df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1, occupation, Learner_Job_Now, Learner_FreeTime, feeMax, 
                           condition_duration, typeFilter):
     result_Offline, dict_f_Offline = BuildRule_Offline(
-        df_Off, missing_skill, lan_know, lat1, lon1, occupation, Learner_Job_Now, Learner_FreeTime, 
+        df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1, occupation, Learner_Job_Now, Learner_FreeTime, 
         feeMax, condition_duration, typeFilter)
     return result_Offline, dict_f_Offline
 
@@ -588,7 +588,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
 
     str_skills_to_learn = function.FindMissingSkill1(df_attribute_requirement)
     missing_skill = function.FindMissingSkill(df_attribute_requirement)
-       
+   
     occupation_id = df_attribute_requirement.Occupation[0]
     skills_acquired, occupation_title, d_knowledge = function.Find_Require_Job(occupation_id)
 
@@ -614,7 +614,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
         print("Don't choose form")
         if Learner_Job_Now.startswith('work') or Learner_Job_Now.startswith('study'):
             result_online, dict_f_online = BuildRule_Online(
-                df_On, missing_skill, lan_know, occupation_id,
+                df_On, missing_skill,str_skills_to_learn, lan_know, occupation_id,
                 feeMax, condition_duration, typeFilter)
             if len(result_online) > 0:
                 dict_f_ngoaile1.append({"job_offer": str_lst_job_sim})
@@ -634,7 +634,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
                             "ExceptionDetail": []}}}
             else:
                 result_offline, kq_On = KiemTraOfflineNgoaiLe(
-                    df_Off, missing_skill, lan_know, lat1, lon1, occupation_id, 
+                    df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1, occupation_id, 
                     Learner_Job_Now, Learner_FreeTime, feeMax, condition_duration, typeFilter)
                 dict_f_ngoaile = {
                     'occupation': occupation_title,
@@ -645,11 +645,11 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
                     'courses_offline': kq_On}
         else:
             result_online, dict_f_online = BuildRule_Online(
-                df_On, missing_skill, lan_know, occupation_id, feeMax, 
+                df_On, missing_skill,str_skills_to_learn, lan_know, occupation_id, feeMax, 
                 condition_duration, typeFilter)
             
             result_offline, dict_f_Offline = BuildRule_Offline(
-                df_Off, missing_skill, lan_know, lat1, lon1, occupation_id, 
+                df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1, occupation_id, 
                 Learner_Job_Now, 
                 Learner_FreeTime, feeMax, condition_duration, typeFilter)
          
@@ -700,7 +700,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
     elif Form_require.startswith('online'):
         print("Choose Online")
         df_rule, dict_onl = BuildRule_Online(
-            df_On, missing_skill, lan_know, occupation_id, feeMax, 
+            df_On, missing_skill, str_skills_to_learn, lan_know, occupation_id, feeMax, 
             condition_duration, typeFilter)
         # ----
         dict_f_ngoaile1.append({"Job_offer": str_lst_job_sim})
@@ -723,7 +723,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
         if len(df_rule) == 0:
             print("Don't have result online. Therefore rs offline")
             result_Offline, kq_On = KiemTraOfflineNgoaiLe(
-                df_Off, missing_skill, lan_know, lat1, lon1, occupation_id,
+                df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1, occupation_id,
                 Learner_Job_Now, Learner_FreeTime, feeMax, 
                 condition_duration, typeFilter)
             dict_f_ngoaile = {
@@ -738,7 +738,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
 
     else:
         print("Choose Offline")
-        df_rule, dict_off = BuildRule_Offline(df_Off, missing_skill, lan_know, lat1, lon1,
+        df_rule, dict_off = BuildRule_Offline(df_Off, missing_skill,str_skills_to_learn, lan_know, lat1, lon1,
                                               occupation_id, Learner_Job_Now, 
                                               Learner_FreeTime, feeMax, 
                                               condition_duration, typeFilter)
@@ -762,7 +762,7 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
 
         if len(df_rule) == 0:
             result_Offline, kq_Off = KiemTraOnlineNgoaiLe(
-                df_On, missing_skill, lan_know, occupation_id, 
+                df_On, missing_skill,str_skills_to_learn, lan_know, occupation_id, 
                 feeMax, condition_duration, typeFilter)
             dict_f_ngoaile = {
                 'occupation': occupation_title,
