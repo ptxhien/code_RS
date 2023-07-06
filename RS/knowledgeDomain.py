@@ -4,11 +4,10 @@ from difflib import SequenceMatcher
 from datetime import timedelta
 import os
 import dao
-import json
 from sklearn.metrics.pairwise import pairwise_distances
 from math import cos, asin, sqrt
 import numpy as np
-import numpy
+
 # -*- coding: utf-8 -*-
 
 # 1. Language
@@ -19,16 +18,15 @@ def Xet_Language(df_Onl, df_Off, filter, lst_lan):
     df = []
     if filter.lower() == "online":
         course_know = function.findCourseOn_basedOn_Language(df_Onl, lst_lan)
-        df_Onl = course_know.copy()
+        df = df_Onl
         if len(course_know) == 0:
             flat_language = -1
-        df = df_Onl
+        
     else:
         course_know = function.findCourseOn_basedOn_Language(df_Off, lst_lan)
-        df_Off = course_know.copy()
+        df = course_know
         if len(course_know) == 0:
             flat_language = -1
-        df = df_Off
     return df, flat_language
 
 # 2.  Location
@@ -46,43 +44,73 @@ def Xet_Location(df_C, lat1, lon1):
     for i, c in df_C.iterrows():
         lat2 = c['latitude']
         lon2 = c['longitude']
-        if lat1 != "" and lon1 != "":
-            df_C.loc[i, 'distance'] = distance(lat1, lon1, lat2, lon2)
-        else:
-            df_C.loc[i, 'distance'] = ""
+        kq = ""
+        if lat2 != "" and lon2 != "":
+            kq = distance(lat1, lon1, lat2, lon2)
 
-    df_C = df_C.sort_values(['distance'], ascending=[True])
+        df_C.loc[i, 'distance'] = kq
+
+    df_C = df_C[df_C['distance'] != ""].sort_values(
+        ['distance'], ascending=[True])
     return df_C
 
 # 3. StudyForm and FrameTime
 
-
 def Xet_FrameStudy_JobNow(df, Job_Now, str_lst_frametime):
-    df_Off = df.copy()
-    flat_course_freetime = 0
-    lst_t_learner = []
+  df_Off = df.copy()
 
-    for i in str_lst_frametime.split('|'):
-        lst_t_learner.append(i)
+  flat_course_freetime = 0
+  lst_t_learner = []
 
-    if Job_Now.startswith('work') | Job_Now.startswith('study'):
-        df = df[df['studyForm'].astype(str).str.startswith('Part time')]
-        if len(df) > 0:
-            df1 = pd.DataFrame()
-            for i1 in lst_t_learner:
-                df1_1 = function.FindCoursebasedStudyTime(df, i1)
-                df1 = df1.append(df1_1)
-            if len(df1) > 0:
-                df = df1
-            else:
-                flat_course_freetime = 1
-                # df = df1
-        else:
-            flat_course_freetime = 1
-            # df = df[df['studyForm'].astype(str).str.startswith('Part time')]
+  # duyệt nhiều khung thời gian (chuyển chuỗi thành list)
+  for i in str_lst_frametime.split('|'):
+    lst_t_learner.append(i)
+
+  if Job_Now.startswith('work') | Job_Now.startswith('study'):
+    df = df[df['studyForm'].astype(str).str.startswith('Part time')]
+    if len(df) > 0:
+      df1 = pd.DataFrame()
+      for i1 in lst_t_learner:
+        df1_1 = function.FindCoursebasedStudyTime(df, i1)
+        df1 = df1.append(df1_1)
+      print(len(df1))
+      if len(df1) > 0:
+        df = df1
+      else:
+        flat_course_freetime = 1
+
     else:
-        df = df_Off
-    return df, flat_course_freetime
+      flat_course_freetime = 1
+
+  else:
+    df = df_Off
+  return df, flat_course_freetime
+
+# def Xet_FrameStudy_JobNow(df, Job_Now, str_lst_frametime):
+#     df_Off = df.copy()
+    
+#     flat_course_freetime = 1
+#     lst_t_learner = []
+
+#     [lst_t_learner.append(i) for i in str_lst_frametime.split('|')]
+
+#     if Job_Now.startswith('work') | Job_Now.startswith('study'):
+#         df = df[df['studyForm'].astype(str).str.startswith('Part time')]
+#     else:
+#         df = df_Off
+
+#     if len(df) > 0:
+#         df1 = pd.DataFrame()
+#         for i1 in lst_t_learner:
+#             df1_1 = function.FindCoursebasedStudyTime(df, i1)
+#             df1 = df1.append(df1_1)
+
+#         if len(df1) > 0:
+#             flat_course_freetime = 0  # tìm thấy
+        
+#     df = df1
+    
+#     return df, flat_course_freetime
 
 # 4. Fee
 
@@ -133,19 +161,19 @@ def TinhSumDurationRS(df1, condition_duration):
 
     if condition_duration > 0:
         sum_learn_duration = "{:0>8}".format(
-            str(timedelta(seconds=numpy.float64(condition_duration))))
+            str(timedelta(seconds=np.float64(condition_duration))))
         sum_second_learn = pd.to_numeric(
             condition_duration, downcast='integer')
 
         sum_second_course = df1['durationSecond'].sum()
         sum_course_duration = "{:0>8}".format(
-            str(timedelta(seconds=numpy.float64(sum_second_course))))
+            str(timedelta(seconds=np.float64(sum_second_course))))
 
         if sum_second_course > sum_second_learn:
             flat_sum_duration = -1
             duration_bothem = sum_second_course - sum_second_learn
             kq_hocthem = "{:0>8}".format(
-                str(timedelta(seconds=numpy.float64(duration_bothem))))
+                str(timedelta(seconds=np.float64(duration_bothem))))
     return flat_sum_duration, sum_learn_duration, sum_course_duration, kq_hocthem
 
 
@@ -167,17 +195,18 @@ def Course_Learner_Duration(df, condition_duration):
 def Jac_Simmilar():
     conn = dao.create_connection()
     df = dao.select_job(conn)
+
     lst_all_Tech = list()
-    for id, row in df.iterrows():
-        for tec in row.loc['technologySkill'].split(', '):
-            if (tec != '' and tec not in lst_all_Tech):
-                lst_all_Tech.append(tec)
+    [lst_all_Tech.append(tec) for id, row in df.iterrows(
+    ) for tec in row.loc['technologySkill'].split(', ') if (tec != '' and tec not in lst_all_Tech)]
+
     lst_all_Tech.sort()
 
     TEMP = pd.get_dummies(lst_all_Tech, dtype=int)
     df_Course_Filter = df[['jobID', 'technologySkill']]
     df_Course_Filter = df_Course_Filter.join(TEMP)
     df_Course_Filter = df_Course_Filter.astype(str)
+
     skill = df_Course_Filter.columns[3:].tolist()
 
     for id, row in df_Course_Filter.iterrows():
@@ -235,9 +264,9 @@ def job_related(job_id):
 
     df_get = get_top5_similar(job_id)
     new_data = pd.merge(df_get, df, how='left', on="jobID")
+
     lst_job_sim = []
-    for id, row in new_data.iterrows():
-        if row["jobTitle"] not in lst_job_sim:
-            lst_job_sim.append(row["jobTitle"])
+    [lst_job_sim.append(row["jobTitle"]) for id, row in new_data.iterrows(
+    ) if row["jobTitle"] not in lst_job_sim]
 
     return lst_job_sim

@@ -67,10 +67,8 @@ def Find_lat_long_learner(df_Learner_now):
     df_Learner_now = df_Learner_now.fillna('')
     df_Learner_now = df_Learner_now.reset_index(drop=True)
 
-    address1_get = df_Learner_now['address1'][0]
-    address_get = df_Learner_now['address'][0]
 
-    if address1_get != "" and address_get != "":
+    if df_Learner_now['address1'][0] != "" and df_Learner_now['address'][0] != "":
         df_Learner_now['location'] = df_Learner_now['address1'] + \
             ', ' + df_Learner_now['address']
         learner_address = df_Learner_now.location[0]
@@ -86,21 +84,30 @@ def Find_lat_long_learner(df_Learner_now):
         conn.request('GET', '/v1/forward?{}'.format(params))
         res = conn.getresponse()
         data1 = json.loads(res.read())
-        # data1 = {}
+        
+        longitude = ""
+        latitude = ""
+        region = ""
+        county = ""
+        label = ""
         if bool(data1):
             for i in data1['data']:
-                df_Learner_now['longitude'] = i['longitude']
-                df_Learner_now['latitude'] = i['latitude']
-                df_Learner_now['region'] = i['region']
-                df_Learner_now['county'] = i['county']
-                df_Learner_now['label'] = i['label']
+                longitude = i['longitude']
+                latitude = i['latitude']
+                region = i['region']
+                county = i['county']
+                label = i['label']
+            df_Learner_now['longitude'] = longitude
+            df_Learner_now['latitude'] = latitude
+            df_Learner_now['region'] = region
+            df_Learner_now['county'] = county
+            df_Learner_now['label'] = label
         else:
             df_Learner_now['longitude'] = ""
             df_Learner_now['latitude'] = ""
             df_Learner_now['region'] = ""
             df_Learner_now['county'] = ""
             df_Learner_now['label'] = ""
-
     else:
         df_Learner_now['location'] = ""
         df_Learner_now['longitude'] = ""
@@ -116,16 +123,21 @@ def User_Preq_Attributes(email, occupation, form, month, typeFilter):
     conn = create_connection()
     df_Learner = select_l(conn)
     df_Learner = df_Learner.loc[df_Learner.email == email]
+    df_Learner = df_Learner.reset_index(drop=True)
+    
     df_Learner = Find_lat_long_learner(df_Learner)
 
     Requirement_Learner = []
     if month != "":
-        Requirement_Learner.append({'Occupation': str(occupation), 'Form_require': str(
-            form), 'duration': int(month), 'typeFilter': str(typeFilter)})
-    # elif month == "":
+        Requirement_Learner.append({'Occupation': str(occupation), 
+                                'Form_require': str(form), 'duration': int(month),
+                                'typeFilter': str(typeFilter)})
+  # elif month == "":
     else:
-        Requirement_Learner.append({'Occupation': str(occupation), 'Form_require': str(
-            form), 'duration': '00', 'typeFilter': str(typeFilter)})
+        Requirement_Learner.append({'Occupation': str(occupation), 
+                                'Form_require': str(form), 'duration': '00', 
+                                'typeFilter': str(typeFilter)})
+
 
     df_requirement_Learner = pd.DataFrame(Requirement_Learner)
     df_requirement_Learner['learnerID'] = df_Learner[['learnerID']]

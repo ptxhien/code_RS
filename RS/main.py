@@ -23,28 +23,29 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def RS():
     # 1. lay thong tin learner chon tren fontend
     occupation = request.args.get("occupation").strip()
-    occupation_Name = function.Find_Title(occupation)
-
+    str_skills_acquired, occupation_Name, d_knowledge = function.Find_Require_Job(occupation)
+     
+    
     form = request.args.get("form")
     month = request.args.get("month")
     email = request.args.get("email")
     typeFilter = request.args.get("typeFilter")
-    typeFilter_Name = function.typeFilter_Name(typeFilter)
+    typeFilter_Name = function.typeFilterName(typeFilter)
 
     # 2. load information relate learner
     # user profile
     df_attribute_requirement = dao.User_Preq_Attributes(
         email, occupation, form, month, typeFilter)
+    # # find missing skill
+    str_skills_to_learn = function.FindMissingSkill1(df_attribute_requirement)
+    
 
     # load courses
     df_On = function.take_CourseOnline(df_attribute_requirement)
     df_Off = function.take_CourseOffline(df_attribute_requirement)
 
-    # # find missing skill
-    str_skills_acquired = function.Find_Skill_Weight(
-        df_attribute_requirement.Occupation[0])
-    str_skills_to_learn = function.FindMissingSkill_1(df_attribute_requirement)
-
+   
+    
     # ----------------------------------------------------------------
     lst_job_sim = knowledgeDomain.job_related(occupation)
     del lst_job_sim[0:1]
@@ -59,8 +60,7 @@ def RS():
 
         if len(str_skills_to_learn) > 0:
             if len(df_On) > 0 or len(df_Off) > 0:
-                dict_f = buildRule.recommendation(
-                    df_On, df_Off, df_attribute_requirement, str_skills_acquired, str_skills_to_learn, occupation_Name, typeFilter_Name)
+                dict_f = buildRule.recommendation(df_On, df_Off, df_attribute_requirement)
             else:
                 dict_f_ngoaile1.append({"Job_offer": str_lst_job_sim})
                 dict_f = {
@@ -111,13 +111,7 @@ def RS():
         dict_f = {"message": "This user doesn't exist",
                   "status": 407}
 
-    # save file result
-    # file_name = 'KQ_RS.json'
-    # with open(file_name, 'w') as f:
-    #     json.dump(dict_f, f, ensure_ascii=False, indent=4)
-
-    # 4. tra ket qua ve trang chu hien thi
-    # return render_template("index.html", dict_f)
+    
     return dict_f
 
 
