@@ -323,7 +323,6 @@ def Off_Lan(result, missing_skill, occupation, feeMax, condition_duration,
     str_new_lstSkill_Provider = convertlst_toString(lstSkill_Provider)
     str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
     if len(result) > 0:
-        print("Off_Lan", result.info)
         for i, r in result.iterrows():
             kq_result.append({"courseID": str(r[0]),
                               "courseTitle": str(r[7]),
@@ -390,7 +389,6 @@ def Off_NotLan(result, missing_skill, lan_no_know, occupation, feeMax,
     str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
 
     if len(result) > 0:
-        print("Off_NotLan", result.info)
         for i, r in result.iterrows():
             kq_result.append({"courseID": str(r[0]),
                               "courseTitle": str(r[7]),
