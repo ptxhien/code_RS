@@ -87,48 +87,48 @@ def BuildRule_Online(df_On, missing_skill, lan_know, occupation_id, feeMax,
                 else:
                     flat_language = -1
                     flat_level = -1
-
+                    
+        print("online", result.info())
         for i, r in result.iterrows():
             kq_result.append({"courseID": str(r[0]),
-                              "courseTitle": str(r[2]),
-                              "Tech_Skill": str(r[4]),
-                              "studyTime": "",
-                              "studyForm": "",
-                              "technologySkill": str(r[3]),
-                              "outcomeLearning": str(r[9]),
-                              "provider": str(r[11]),
-                              "duration": str(r[12]),
-                              "feeVND": str(r[15]),
-                              "URL": str(r[10]),
-                              "language": str(r[20]),
-                              "rating": str(r[17]),
-                              "peopleRating": str(r[18]),
-                              "location": "",
-                              "level": str(r[14]),
-                            #   'distance': "",
-                            #   'Weight':str(r[25]),
-                              "is_online": "true"})
-
+                                      "courseTitle": str(r[1]),
+                                      "Tech_Skill": str(r[3]),
+                                      "studyTime": "",
+                                      "studyForm": "",
+                                      "technologySkill": str(r[2]),
+                                      "outcomeLearning": str(r[8]),
+                                      "provider": str(r[10]),
+                                      "duration": str(r[11]),
+                                      "feeVND": str(r[14]),
+                                      "URL": str(r[9]),
+                                      "language": str(r[19]),
+                                      "rating": str(r[18]),
+                                      "peopleRating": str(r[17]),
+                                      "location": "",
+                                      "level": str(r[13]),
+                                    #   'distance': "",
+                                      'Weight':str(r[24]),
+                                      "is_online": "true"})
 
         for i, r in result_ngoaile.iterrows():
             kq_result_ngoaile.append({"courseID": str(r[0]),
-                                      "courseTitle": str(r[2]),
-                                      "Tech_Skill": str(r[4]),
+                                      "courseTitle": str(r[1]),
+                                      "Tech_Skill": str(r[3]),
                                       "studyTime": "",
                                       "studyForm": "",
-                                      "technologySkill": str(r[3]),
-                                      "outcomeLearning": str(r[9]),
-                                      "provider": str(r[11]),
-                                      "duration": str(r[12]),
-                                      "feeVND": str(r[15]),
-                                      "URL": str(r[10]),
-                                      "language": str(r[20]),
-                                      "rating": str(r[17]),
-                                      "peopleRating": str(r[18]),
+                                      "technologySkill": str(r[2]),
+                                      "outcomeLearning": str(r[8]),
+                                      "provider": str(r[10]),
+                                      "duration": str(r[11]),
+                                      "feeVND": str(r[14]),
+                                      "URL": str(r[9]),
+                                      "language": str(r[19]),
+                                      "rating": str(r[18]),
+                                      "peopleRating": str(r[17]),
                                       "location": "",
-                                      "level": str(r[14]),
+                                      "level": str(r[13]),
                                     #   'distance': "",
-                                    #   'Weight':str(r[25]),
+                                      'Weight':str(r[24]),
                                       "is_online": "true"})
 
         # TH1: dont courses language and level
@@ -323,6 +323,7 @@ def Off_Lan(result, missing_skill, occupation, feeMax, condition_duration,
     str_new_lstSkill_Provider = convertlst_toString(lstSkill_Provider)
     str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
     if len(result) > 0:
+        print("Off_Lan", result.info)
         for i, r in result.iterrows():
             kq_result.append({"courseID": str(r[0]),
                               "courseTitle": str(r[7]),
@@ -389,6 +390,7 @@ def Off_NotLan(result, missing_skill, lan_no_know, occupation, feeMax,
     str_new_lstSkill_notProvider = ", ".join(lstSkill_notProvider)
 
     if len(result) > 0:
+        print("Off_NotLan", result.info)
         for i, r in result.iterrows():
             kq_result.append({"courseID": str(r[0]),
                               "courseTitle": str(r[7]),
@@ -775,3 +777,4 @@ def recommendation(df_On, df_Off, df_attribute_requirement):
         dict_f = dict_f_ngoaile
 
     return dict_f
+
