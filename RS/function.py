@@ -359,17 +359,28 @@ def Find_List_FrameTime_Remain(df, t_learner):
 
 
 def LstTech(df):
-    lst_T = []
-    [lst_T.append(item.strip()) for id, row in df.iterrows() for item in row.loc['Tech_Skill'].split(',') if item.strip() not in lst_T and item.strip() !='']
-    return lst_T
+  lst_T = []
+  for id, row in df.iterrows():
+    for tec in row.loc['Tech_Skill'].split(', '):
+      if tec != '' and tec not in lst_T:
+        lst_T.append(tec)
+  return lst_T
 
 
 def LstTechCourse_Provider(df, occupation_id):
     d_F = {}
+    # trọng số của các skill trong ngành nghề
     d_skill, d_title, d_knowledge = Find_Require_Job(occupation_id)
+
+    # skill khoá học cung cấp
     lst_T = LstTech(df)
-    [d_F.setdefault(key, value) for j in lst_T for key, value in d_skill.items() if j == key]
+
+    for j in lst_T:
+        for key, value in d_skill.items():
+            if j == key:
+                d_F.setdefault(key, value)
     return d_F
+
 
 
 def LstTechCourse_NotProvider(lst, missing_skill):
