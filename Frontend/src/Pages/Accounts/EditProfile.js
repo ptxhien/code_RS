@@ -382,7 +382,7 @@ export default function EditProfile() {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label for="exampleSelectMulti" sm={4}><span className="text-danger">*</span>What skills do you know?</Label>
+                    <Label for="exampleSelectMulti" sm={4}><span className="text-danger"></span>What skills do you know?</Label>
 
                     <Col sm={7}>
                         <Select isMulti components={makeAnimated()}

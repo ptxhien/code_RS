@@ -86,32 +86,6 @@ def Xet_FrameStudy_JobNow(df, Job_Now, str_lst_frametime):
     df = df_Off
   return df, flat_course_freetime
 
-# def Xet_FrameStudy_JobNow(df, Job_Now, str_lst_frametime):
-#     df_Off = df.copy()
-    
-#     flat_course_freetime = 1
-#     lst_t_learner = []
-
-#     [lst_t_learner.append(i) for i in str_lst_frametime.split('|')]
-
-#     if Job_Now.startswith('work') | Job_Now.startswith('study'):
-#         df = df[df['studyForm'].astype(str).str.startswith('Part time')]
-#     else:
-#         df = df_Off
-
-#     if len(df) > 0:
-#         df1 = pd.DataFrame()
-#         for i1 in lst_t_learner:
-#             df1_1 = function.FindCoursebasedStudyTime(df, i1)
-#             df1 = df1.append(df1_1)
-
-#         if len(df1) > 0:
-#             flat_course_freetime = 0  # tìm thấy
-        
-#     df = df1
-    
-#     return df, flat_course_freetime
-
 # 4. Fee
 
 

@@ -172,7 +172,8 @@ export default function WizardStep2({ DTO, setDTO }) {
                             Where do you live?
                         </Label>
                         <Col sm={7}>
-                            <Input type="text" value={DTO.address1} onChange={(e) => setDTO({...DTO, address1: e.target.value})} placeholder="Example: 62 Trương Phước Phan" />
+                            <Input type="text" value={DTO.address1} 
+                            onChange={(e) => setDTO({...DTO, address1: e.target.value})} placeholder="Example: 62 Trương Phước Phan" />
                         </Col>
                         {/* <Label sm={4}>
                             Select Ward, District, City
