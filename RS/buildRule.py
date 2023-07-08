@@ -88,7 +88,7 @@ def BuildRule_Online(df_On, missing_skill,str_skills_to_learn, lan_know, occupat
                     flat_language = -1
                     flat_level = -1
                     
-        print("online", result.info())
+        # print("online", result.info())
         for i, r in result.iterrows():
             kq_result.append({"courseID": str(r[0]),
                                       "courseTitle": str(r[1]),
